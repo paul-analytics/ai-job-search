@@ -59,7 +59,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Paul Owoicho-Oche John - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -69,13 +69,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Paul}{Owoicho-Oche John}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Dubai, UAE}{}{}
+\phone[mobile]{+971 52 463 4624}
+\email{johnpaulowoicho@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/paul-john-4a9463175}{linkedin.com/in/paul-john-4a9463175}, \href{https://github.com/paul-analytics}{github.com/paul-analytics}}
 
 \begin{document}
 \makecvtitle
@@ -137,11 +137,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For guest experience / F&B supervision roles (restaurant supervisor, guest relations, VIP host):**
+> Guest experience professional with 5+ years in premium hospitality and bespoke retail across Dubai and Nigeria. At Mythos Urban Greek Restaurant (City Walk) I lead a 15+ person floor team through peak service, cut service errors by 25%, raised average spend per guest by 20% and grew repeat VIP clientele by 30%. Calm under pressure, 100% accurate on POS, and focused on personalized, luxury-standard service that brings guests back.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For luxury retail sales / clienteling roles (client advisor, sales associate, customer experience):**
+> Sales and client relationship professional with 5+ years in premium hospitality and bespoke retail. Proven in consultative selling and clienteling: +20% average spend through tailored recommendations, +30% repeat VIP clientele, and +35% client satisfaction / +25% repeat business at TIVA Bespoke through personalized follow-up and accurate CRM records. Brings luxury-service composure and an MBA (GPA 3.92) to building a loyal client book.
+
+**For data-informed commercial roles (junior data / sales / revenue / CRM analyst):**
+> Google-certified data analyst and MBA graduate (AI & Future of Automation, GPA 3.92) with a Mathematics degree and 5+ years on the commercial front line of premium hospitality and retail. Uses SQL Server and Power BI to turn booking and sales data into decisions - e.g. a hotel revenue analysis showing group bookings cancel at 34.8% vs 8.9% for offline travel agents, delivered as a Power BI executive dashboard. Pairs analytics with first-hand understanding of what drives guest spend and loyalty.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

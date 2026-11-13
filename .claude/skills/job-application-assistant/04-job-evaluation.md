@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** consultative selling, upselling & cross-selling, clienteling & VIP relationship management, complaint resolution & service recovery, floor/team leadership in luxury F&B, POS transaction accuracy, CRM record-keeping
+**Moderate match areas:** SQL (SQL Server), Power BI (DAX), Excel, sales reporting, hotel revenue metrics (ADR, cancellations by segment) - one portfolio project + Google Data Analytics certificate, no paid analytics role yet; visual merchandising, inventory & stock replenishment, event & brand activation support
+**Weak match areas:** Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, Python, revenue management systems (IDeaS, Duetto), marketing automation (Braze, Klaviyo, SFMC), Agile/UAT/Jira business analysis, food safety certification (HACCP/PIC), Arabic, Russian
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** premium/luxury restaurant service in Dubai (2023-present), guest relations & VIP clientele, upselling against spend targets, peak-service floor leadership (15+ staff)
+**Moderate:** bespoke retail customer service & CRM/order fulfillment (TIVA Bespoke, 2019-2021), administrative coordination, luxury retail sales / client advisor roles (transferable), hotel reservations & revenue coordination (portfolio-backed)
+**Entry-level:** data analyst / BI / reporting analyst, CRM analyst, revenue analyst, business analyst - credible at junior level via MBA (AI & Automation), Mathematics B.Sc., Google certificate and SQL/Power BI project
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -93,7 +93,8 @@ Does the role and company culture match the behavioral profile?
 ### 4. Location & Logistics (Pass/Fail + Notes)
 - Within commute range: PASS
 - Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Requires relocation: FAIL (deal-breaker) - candidate is Dubai-based; Sharjah/Ajman = FLAG (long commute), Abu Dhabi/RAK = FLAG (relocation), outside UAE = FAIL
+- Restricted to UAE nationals ("UAE National", Emirati-only, Nafis): FAIL - not eligible
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -107,19 +108,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Step up from senior floor role to a titled supervisory / guest-experience / client-advisor position in luxury hospitality or retail (to confirm)
+- Bridge into data-informed commercial roles (revenue, CRM, sales/CX analytics) that use SQL, Power BI and the MBA (to confirm)
+- Stay in Dubai with a stronger salary and progression path (to confirm)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: building guest/client relationships, selling premium products, leading a team through busy service, turning sales data into decisions (inferred from CV - to confirm)
+- Tasks that drain: to confirm
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: currently employed in Dubai, 30-day notice period - can be selective; salary floor to confirm
+- **Flexibility**: hospitality shift patterns are familiar; schedule constraints to confirm
+- **Professional development**: hotel systems (Opera PMS), analytics depth (Python/Tableau optional), supervisory title
 
 ### 6. Salary Benchmark (Optional)
 

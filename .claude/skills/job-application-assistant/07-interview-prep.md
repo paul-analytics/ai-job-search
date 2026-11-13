@@ -16,26 +16,43 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+<!-- Built from CV facts (2026-11-13). Results are real CV figures; replace each "(add: ...)" with a
+specific true story before an interview - never invent the situation details. -->
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Upselling at Mythos (Consultative selling / revenue)
+**S:** Premium Greek restaurant at City Walk, Dubai; guests often ordered conservatively. (add: a concrete table/occasion)
+**T:** Raise average spend per guest without hurting the experience.
+**A:** Read each table's occasion and preferences, gave tailored recommendations, and paired premium dishes and drinks. (add: your exact technique)
+**R:** Average spend per guest up **20%**.
+**Use for:** "Tell me about a time you exceeded a sales target", "How do you upsell without being pushy?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Building VIP loyalty (Relationship management / clienteling)
+**S:** A VIP and regular guest base at Mythos that the venue wanted to grow. (add: one named-type guest story, anonymized)
+**T:** Turn first-time VIPs into returning clients.
+**A:** Remembered preferences, personalized service, followed through on special requests. (add: what you tracked and how)
+**R:** Repeat VIP clientele up **30%**; event/brand activation revenue up **15%**.
+**Use for:** "How do you build long-term client relationships?", "Describe exceptional service you delivered"
+
+### 3. Leading the floor at peak service (Leadership under pressure)
+**S:** Peak service with a 15+ person floor team in a luxury setting. (add: a specific busy night / incident)
+**T:** Keep service flawless and the team coordinated.
+**A:** Assigned sections, coordinated with the kitchen, stepped in on problem tables. (add: the key decision you made)
+**R:** Service errors down **25%** while upholding luxury standards.
+**Use for:** "Tell me about leading a team", "How do you handle pressure?"
+
+### 4. Client satisfaction at TIVA Bespoke (Service recovery / CRM)
+**S:** Bespoke retail clients, cross-border team, manual follow-ups. (add: one unhappy client you won back)
+**T:** Improve satisfaction and repeat orders.
+**A:** Personalized follow-ups, accurate CRM records, end-to-end order tracking, streamlined team workflows.
+**R:** Client satisfaction **+35%**, repeat business **+25%**, turnaround time **-25%**.
+**Use for:** "Tell me about handling a difficult customer", "How do you improve a process?"
+
+### 5. Hotel Revenue & Booking Analysis (Data analysis - for analyst roles)
+**S:** Hotel booking dataset; question of which segments drive revenue and cancellations.
+**T:** Find actionable revenue insights and present them for executives.
+**A:** Queried in SQL Server to compare ADR and cancellation rate by market segment; built a Power BI dashboard with KPI cards, trends and filters.
+**R:** Showed group bookings cancel at **34.8%** vs **8.9%** for offline travel agents - a clear target for deposit/cancellation policy.
+**Use for:** "Walk me through an analysis you did", "How would you use data in this role?"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

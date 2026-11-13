@@ -1,63 +1,29 @@
-<p align="center">
-  <img src="assets/mascot/pip_flight_loop.gif" alt="Pip, the courier bird" width="200">
-</p>
+# AI Job Search - Paul Owoicho-Oche John (Dubai, UAE)
 
-# AI Job Search
+My personal job-search workspace, built on [Claude Code](https://claude.com/claude-code). It evaluates job postings against my profile, tailors my CV and cover letters, and preps me for interviews. It is tuned for the **UAE / Dubai** market and my target tracks:
 
-*The job search that runs on your machine.*
+1. **Guest experience & F&B leadership**: restaurant supervisor, guest relations, VIP host
+2. **Luxury retail sales & clienteling**: client advisor, sales associate, customer experience
+3. **Data-informed commercial roles**: junior data / sales / revenue / CRM analyst (SQL, Power BI)
 
-<p align="center">
-  <a href="https://trendshift.io/repositories/43622?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-43622" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/43622/daily" alt="MadsLorentzen%2Fai-job-search | Trendshift" width="250" height="55"/></a>
-</p>
+Key files:
+- `CLAUDE.md`: my candidate profile and workflow rules
+- `documents/career/ats-keyword-map.md`: 20 target job titles with the ATS keywords live Dubai postings use
+- `.claude/skills/job-scraper/search-queries.md`: Dubai search strategy
+- `.claude/skills/job-scraper/uae-job-sites.md`: UAE job boards, with what's automated and manual search links
 
-[![CI](https://github.com/MadsLorentzen/ai-job-search/actions/workflows/ci.yml/badge.svg)](https://github.com/MadsLorentzen/ai-job-search/actions/workflows/ci.yml)
-
-An AI-powered job application framework built on [Claude Code](https://claude.com/claude-code). Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV, write cover letters, and prepare you for interviews.
-
-> Note: This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses.
->
-> This project has **no affiliated cryptocurrency, token, or paid sponsorship program**. Anything claiming otherwise is unauthorized and should be treated as a scam. The only ways to support the project are the Ko-fi link below and contributing on GitHub.
-
-## Does it actually work?
-
-I'm a geophysicist by training. When my position was cut in late 2025, I built this framework to run my own job search - the same `/scrape`, `/apply`, and `/interview` workflow in this repo, used weekly, on my own career. I was upfront about it with every employer I spoke to, and instead of counting against me, it usually sparked a genuine technical conversation.
-
-Sixty-nine tailored applications, twenty first interviews, and one signed contract later, I started as an AI engineer in June 2026. People kept asking whether this actually works. It got me hired. Now it's yours.
-
-*The longer version, including the full application funnel, is on [LinkedIn](https://www.linkedin.com/in/mads-lorentzen/).*
-
-<p align="center">
-  <i>Did this save you a Sunday of cover-letter writing? Consider a coffee.<br>
-  Did it land you the job? Maybe two.</i> ☕
-</p>
-
-<p align="center">
-  <a href="https://ko-fi.com/madslorentzen">
-    <img src="https://storage.ko-fi.com/cdn/kofi3.png?v=6" alt="Buy me a coffee at ko-fi.com" height="40">
-  </a>
-</p>
+> Adapted from the open-source [ai-job-search](https://github.com/MadsLorentzen/ai-job-search) framework (MIT). The Danish job-portal tools were removed in this fork; LinkedIn and freehire.me cover the UAE automatically, and the bot-protected UAE boards are searched by hand.
 
 ## What this is
 
-A structured workflow that turns Claude Code into a full-stack job application assistant. The core workflow (self-profiling, fit evaluation, and the drafter-reviewer application pipeline) is **language- and country-agnostic**. The job portal search skills are built for the Danish market (Jobindex, Jobnet, Akademikernes Jobbank, etc.), but the pattern is designed to be swapped for your local job boards.
+A structured workflow that turns Claude Code into a full-stack job application assistant:
 
 ```
-/setup          /scrape              /apply <url>
-  |                |                     |
-  v                v                     v
-Fill in        Search job           Evaluate fit
-your profile   portals              Score & recommend
-  |                |                     |
-  v                v                     v
-Profile        Present matches      Draft CV + Cover Letter
-files ready    with fit ratings     (LaTeX, tailored)
-                   |                     |
-                   v                     v
-               Pick a match         Reviewer agent critiques
-               -> /apply            -> Revise -> Final output
+/scrape  ->  /rank  ->  /apply <url>  ->  /interview  ->  /outcome
+search       shortlist  fit check, CV +    prep pack +     record result,
+LinkedIn +   by fit     cover letter,      mock            follow-ups
+freehire                reviewer pass      interview
 ```
-
-The framework encodes career guidance best practices, including structured evaluation criteria, forward-looking cover letter framing, and optional salary benchmarking.
 
 ## Prerequisites
 
@@ -71,44 +37,27 @@ The framework encodes career guidance best practices, including structured evalu
 
 > 🎥 **Prefer to see it in action first?** [The Next New Thing did a hands-on walkthrough](https://www.youtube.com/watch?v=HoVxjMNFYv4) of how the workflow is actually used, from setup to a finished application (recorded August 2026 - commands may have evolved since).
 
-### 1. Fork and clone
+### 1. Clone
 
 ```bash
-gh repo fork MadsLorentzen/ai-job-search --clone
+git clone https://github.com/paul-analytics/ai-job-search.git
 cd ai-job-search
 ```
 
 > [!IMPORTANT]
-> **A fork of this repo is always public** — GitHub does not allow private forks of
-> public repositories — and `/setup` (step 3 below) writes your personal data (name,
-> contact details, employment history, salary expectations) into **tracked** files.
-> If this copy is for your own job search rather than for contributing changes back,
-> use a **private repository** with this repo as `upstream` instead — the two-minute
-> recipe is in [SETUP.md section 8](SETUP.md#8-pulling-upstream-updates-into-your-fork),
-> and every update workflow works identically. Fork only to contribute.
+> This repository is a **public** GitHub fork, and the profile files contain personal contact
+> details and employment history. Move it to a **private** repository (see
+> [SETUP.md section 8](SETUP.md#8-pulling-upstream-updates-into-your-fork)) before pushing personal data.
 
 ### 2. Install job search tools
 
-PowerShell:
-
-```powershell
-$tools = @("jobbank-search", "jobdanmark-search", "jobindex-search", "jobnet-search", "linkedin-search", "freehire-search")
-foreach ($tool in $tools) {
-  Push-Location ".agents/skills/$tool/cli"
-  bun install
-  Pop-Location
-}
-```
-
-Bash / zsh / Git Bash:
+Both shipped CLIs (`linkedin-search`, `freehire-search`) have zero runtime dependencies and run with plain `bun`. `bun install` only pulls TypeScript dev types:
 
 ```bash
-for tool in jobbank-search jobdanmark-search jobindex-search jobnet-search linkedin-search freehire-search; do
+for tool in linkedin-search freehire-search; do
   (cd .agents/skills/$tool/cli && bun install)
 done
 ```
-
-For `linkedin-search` and `freehire-search` the install is optional: both have zero runtime dependencies and run with plain `bun`; `bun install` only pulls TypeScript dev types.
 
 ### 3. Set up your profile
 
@@ -131,7 +80,7 @@ This searches multiple job portals for positions matching your profile, deduplic
 ### 5. Apply to a job
 
 ```bash
-/apply https://jobindex.dk/job/1234567
+/apply https://www.linkedin.com/jobs/view/1234567890
 ```
 
 If the URL can't be fetched (some job portals block automated access), you can paste the job description directly instead:
@@ -194,10 +143,6 @@ ai-job-search/
 │   │   └── upskill/                   # /upskill skill gap analysis and learning plan
 │   └── settings.json                  # Claude Code permissions (shared, scoped)
 ├── .agents/skills/                    # Job portal CLI tools
-│   ├── jobbank-search/                # Akademikernes Jobbank (Denmark)
-│   ├── jobdanmark-search/             # Jobdanmark.dk (Denmark)
-│   ├── jobindex-search/               # Jobindex.dk (Denmark)
-│   ├── jobnet-search/                 # Jobnet.dk (Denmark, government portal)
 │   ├── linkedin-search/               # LinkedIn public job listings (country-agnostic)
 │   └── freehire-search/               # freehire.me tech job aggregator (multi-market, REST API)
 ├── cv/
@@ -304,84 +249,16 @@ If you prefer doing it by hand, the manual route still works: update the guidanc
 
 ### Job search tools
 
-The four Danish CLI tools in `.agents/skills/` (Jobbank, Jobdanmark, Jobindex, Jobnet) demonstrate the pattern for building a job-portal integration for a specific market. If you're in a different country, run:
+This fork ships two country-agnostic portal skills. The upstream Danish portals were removed:
 
-```
-/add-portal
-```
+- **`linkedin-search`** is built on LinkedIn's public, unauthenticated `jobs-guest` endpoints. Use `-l "Dubai, United Arab Emirates"`. It has **zero runtime dependencies** and is for **personal use only**: automated access is against LinkedIn's Terms of Service, so keep volume low. See `.agents/skills/linkedin-search/SKILL.md`.
+- **`freehire-search`** queries the [freehire.me](https://freehire.me) aggregator's public REST API. It covers tech and data roles only; use `--country AE`. See `.agents/skills/freehire-search/SKILL.md`.
 
-Give it your local job board's URL. The command investigates the portal (search-URL pattern, result-page structure, robots.txt/access rules), scaffolds a CLI skill with the same structure, commands, and output contract as the shipped ones, and test-runs a live query before registering anything. Auth-walled portals are declined, and portals with restrictive terms get a prominent personal-use-only warning in the generated skill. The generated skill is market-specific and lives in your fork; the generator itself is the universal part.
-
-Maintaining a fork adapted to your market or language? Add it to the [Community forks & adaptations](https://github.com/MadsLorentzen/ai-job-search/discussions/78) thread so others can find it.
-
-For **country-agnostic** starting points outside Denmark, the repo ships two portal skills alongside the Danish demos:
-
-- **`linkedin-search`** — built on LinkedIn's public, unauthenticated `jobs-guest` endpoints. Field-agnostic, **zero runtime dependencies** (runs with just `bun`), and takes the search location as an explicit flag, so it works for any market out of the box (`-l "Berlin, Germany"`, `-l "Mumbai, Maharashtra, India"`, `-l "Remote"`, …). Intended for **personal use only** — automated access is against LinkedIn's Terms of Service, so keep volume low. See `.agents/skills/linkedin-search/SKILL.md`.
-- **`freehire-search`** — queries the [freehire.me](https://freehire.me) aggregator's public REST API (JSON, no API key). Tech-focused (software, data, engineering, DevOps, remote), multi-market via facet flags (`--region`, `--country`, `--remote`), and **zero runtime dependencies**. Unlike the HTML-scraping Danish portals, results come back structured (skills, seniority, category). The backend is MIT-licensed and [self-hostable](https://github.com/strelov1/freehire) — point `FREEHIRE_API_URL` at your own instance if you prefer. See `.agents/skills/freehire-search/SKILL.md`.
-
-### Extending the framework: portals, templates, criteria - and borrowing from other forks
-
-Everything above adds up to an extension model, so here it is stated plainly. The framework has three extension points, and none of them require touching upstream:
-
-1. **Portal skills** - the module system for job boards. Every `*-search` skill is a self-contained folder under `.agents/skills/` with the same contract (a `search`/`detail` CLI, `--format json|table|plain` output, an `enabled:` flag in its `SKILL.md`, its own tests). `/scrape` auto-discovers any installed skill that follows the contract - nothing to register, nothing to wire up. `/add-portal` generates new ones; the [community portal index](https://github.com/MadsLorentzen/ai-job-search/discussions/78) catalogs the ones other forks have built.
-2. **Document templates** - `/add-template` registers any CV or cover-letter toolchain that compiles to PDF from the command line, LaTeX or otherwise.
-3. **Evaluation criteria** - deal-breakers and preferences in your profile are free-form, and the evaluation rubric scores against whatever you put there. "Strong parental-leave terms", "minimum salary X per my union's scale", "no on-call" - each is one profile line, no code, and it carries real weight in `/rank` and `/apply` fit evaluations. Language is the one deal-breaker type with dedicated, structured handling: `/setup` captures every language you work in and your level (asked directly, or inferred from your CV/LinkedIn export) into a `Languages` table, and the Language Gate (`04-job-evaluation.md`) hard-rejects a posting that requires a language you haven't declared at all, while flagging - not auto-rejecting - one that asks for a higher level than you declared in a language you do work in, so a borderline case (a strict "fluent" bar against your own B1/B2, say) gets your judgment instead of a silent drop.
-
-**Borrowing a portal skill from another fork** is the intended way to get a board that upstream doesn't ship: find it in the [portal index](https://github.com/MadsLorentzen/ai-job-search/discussions/78), open that fork, and copy the one folder into your own `.agents/skills/`. Before you run it:
-
-- **Read the code.** All of it - these CLIs run pre-approved on your machine (`.claude/settings.json` allowlists them) against your career data. Check that the only network calls go to the job board it claims to search, that `package.json` has no `dependencies` and no lifecycle scripts (`postinstall` etc.), and that nothing reads or writes outside its own folder.
-- **Run its tests offline** (`bun test` in the skill's `cli/` directory) - a well-built skill's tests pass with no network access.
-- Check the `enabled:` flag and the skill's own ToS notes.
-
-The copy step is manual on purpose. Your settings already allow installed portal skills to run without asking each time - so an installer that fetched them from third-party repos for you would skip the one check that matters: you, reading the code first. There isn't one, and that's a security decision rather than a missing feature.
-
-Market-specific *data sources* (a national salary database, local award-rate tables) follow the same pattern as portals: they belong in a market fork, shared via [#78](https://github.com/MadsLorentzen/ai-job-search/discussions/78), not upstream.
-
-### Salary benchmarking
-
-The salary tool works with any salary data you provide (union statistics, Glassdoor exports, personal research, etc.). See `tools/README_SALARY_TOOL.md` for the expected format and setup. If you don't have salary data, the salary step is simply skipped.
-
-### Starting over
-
-To wipe your profile data and start fresh:
-
-```
-/reset profile    # clears skill files, preserves framework rules
-/reset documents  # deletes files from documents/ folder
-/reset all        # both
-```
-
-`/reset` shows exactly what will be deleted and requires you to type `RESET` to confirm. Nothing is deleted until you do.
-
-### Staying up to date
-
-Upstream moves fast. Rather than pulling raw `master` and hoping, update your fork to a tagged [release](../../releases) - a vetted checkpoint described in [CHANGELOG.md](CHANGELOG.md). `python3 tools/check_upstream_updates.py` previews exactly which of your personalized files an update touches before you merge, and `python3 tools/upstream_triage.py` sorts the commits you're behind into "worth reviewing" vs "probably skip" (a weekly workflow can post this to a rolling issue). Full walkthrough in [SETUP.md, section 8](SETUP.md#8-pulling-upstream-updates-into-your-fork).
-
-## Tips for better results
-
-### Profile depth matters
-
-The single biggest factor in output quality is how much detail you put into your profile. A thin profile produces generic applications; a detailed one enables genuinely tailored results.
-
-- **Role descriptions:** Don't just list job titles. Describe what you actually did in each position: specific projects, tools used, responsibilities, and measurable achievements. The more material you provide, the more precisely the system can reframe your experience for different roles.
-- **Skills in context:** Instead of listing "Python" or "project management," describe how and where you applied them. "Built ML pipelines for customer churn prediction in Python using scikit-learn" gives the system far more to work with than "Python, machine learning."
-- **All onboarding paths work:** Whether you point `/setup` at your `documents/` folder, paste a single CV, or walk through the interview, the principle is the same: richer input produces sharper output.
-
-### Career path discovery
-
-The framework supports two distinct modes of job searching:
-
-- **Explicit targeting:** You know which roles or sectors you want. The system helps refine and prioritize based on fit.
-- **Latent opportunity discovery:** By analyzing your full history (not just job titles, but the actual work you did), the system can surface career paths you haven't considered. Transferable skills that map to unexpected industries, patterns in what you enjoyed or excelled at, or emerging roles that combine your domain expertise with new technology.
-
-To get the most from this, invest time during `/setup` in describing not just your experience, but what energized you, what drained you, and what you'd want more of. This context directly shapes how the system evaluates fit and which roles it surfaces during `/scrape`.
-
-## Contributing
-
-Thinking about a PR? Read [CONTRIBUTING.md](CONTRIBUTING.md) first - it explains what gets merged, what lives in forks, and why.
+Bayt, GulfTalent, Naukrigulf, Indeed UAE and Dubizzle all block automated clients (Cloudflare, Imperva, login walls). They are searched by hand from the link table in `.claude/skills/job-scraper/uae-job-sites.md`, which `/scrape` prints after every run. `/add-portal` can scaffold a new portal skill for any board that does allow automated access, but it declines auth-walled portals.
 
 ## Acknowledgements
 
+- Framework: [ai-job-search](https://github.com/MadsLorentzen/ai-job-search) by Mads Lorentzen (MIT)
 - [Mikkel Krogholm](https://github.com/mikkelkrogsholm) ([skills repo](https://github.com/mikkelkrogsholm/skills)) for the job search CLI skills
 - Built with [Claude Code](https://claude.com/claude-code) by [Anthropic](https://anthropic.com)
 

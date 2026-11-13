@@ -1,84 +1,95 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+Personalized for Paul Owoicho-Oche John: Dubai, UAE. Target market is the UAE. Role titles were checked against live Dubai LinkedIn postings on 2026-11-13; see `documents/career/ats-keyword-map.md`.
 
 ## Installed portal CLIs (primary for `/scrape`)
 
-`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. Shipped country-agnostic CLIs include `linkedin-search` and `freehire-search`; Danish demos and any skill you add with `/add-portal` are included the same way. You do **not** need a matching `site:` line below for those CLIs to run.
+`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. This fork ships two country-agnostic CLIs:
 
-The `site:` query templates in this file are the **WebSearch fallback** — for portals without a CLI, company career pages, or when a CLI fails.
+- **`linkedin-search`**: the main source for every category below. Always pass `--location "Dubai, United Arab Emirates"`. LinkedIn is where most Dubai hotel groups, luxury maisons and retail groups post.
+- **`freehire-search`**: tech and data roles only. Use it for Priority 3 with `--country AE`. It is no use for hospitality or retail roles.
 
-**Language scope:** write every query category in every language listed in your CLAUDE.md Languages table (typically 1-2, sometimes more). A posting requiring a language you have *not* declared, as a job condition, is excluded before scoring; a posting requiring a *higher level* than you declared in a language you *do* work in is flagged for your own judgment, not excluded — see `04-job-evaluation.md`'s Language Gate, the single source of truth for this rule. Translate each category's keywords rather than machine-translating word-for-word (e.g. "Frontend Developer" -> "Desarrollador Frontend", not a literal word-for-word translation) if you work in more than one language.
+The upstream Danish portals (Jobindex, Jobnet, Jobbank, Jobdanmark) were removed from this fork.
+
+The major UAE boards (Bayt, GulfTalent, Naukrigulf, Indeed UAE, Dubizzle) all block automated access, with Cloudflare, Imperva or a login wall; this was tested on 2026-11-13. They have **no CLI here and must not be scraped around**. For each `/scrape`, print the ready-made manual search links from `uae-job-sites.md` (this directory) in the Step 5 summary so the user can open them in a browser.
+
+**Language scope:** the candidate works in **English only**. Write every query in English. In Dubai, about one posting in four asks for Arabic and about one in seven asks for Russian (16 and 10 of 67 sampled postings). When a posting *requires* Arabic, Russian, French or another undeclared language (e.g. "Arabic Speaker", "Russian Speaker" in the title, or "fluent Arabic required"), exclude it via the Language Gate in `04-job-evaluation.md`. "Arabic is a plus" is not a requirement; keep those.
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary:
+- **linkedin.com/jobs**: filter Dubai, United Arab Emirates; covered by the `linkedin-search` CLI
+- **bayt.com**: largest MENA board; manual search only (see `uae-job-sites.md`)
+- **naukrigulf.com**: high volume for hospitality, retail and customer service; manual only
+- **gulftalent.com**: mid and senior professional roles; manual only
+- **ae.indeed.com**: aggregator; manual only (login wall for bots)
+- **dubizzle.com/jobs**: entry-level, hospitality and retail volume; manual only
 
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+Secondary (employer career pages via WebSearch `site:` queries):
+- Hospitality: `careers.marriott.com`, `jobs.hilton.com`, `careers.accor.com`, `jumeirah.com`, `kerzner.com` (Atlantis, One&Only), `emaar.com`, `rotana.com`, `careers.ihg.com`, `careers.dorchestercollection.com`
+- Luxury and premium retail: `chalhoubgroup.com`, `altayer.com`, `careers.majidalfuttaim.com`, `apparelgroupglobal.com`, `rivoligroup.com`, `landmarkgroup.com`
+- F&B groups: `kitopi.com`, `gateshospitality.com`, `eatx.com`, `alabbarenterprises.com`
 
 ## Query Categories
 
-Queries are grouped by priority. Write **each category in every language from your Languages table** (see Language scope above). Combine each query with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Combine every query with `Dubai` (CLI: `--location "Dubai, United Arab Emirates"`). Categories are named by function; the titles inside are interchangeable variants.
 
-**Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
+### Priority 1: Guest experience and F&B leadership (strongest, current track)
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
-
-These match your strongest and most desired career direction.
+Direct continuation of the Senior Waiter role at Mythos (City Walk): VIP guests, upselling, leading a 15+ person floor team, POS.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
+linkedin-search: "restaurant supervisor" | "F&B supervisor" | "captain" | "head waiter" | "assistant restaurant manager"
+linkedin-search: "guest relations" | "guest experience" | "guest relations executive" | "VIP host" | "head hostess" | "maitre d"
+site:careers.marriott.com "Dubai" ("restaurant supervisor" OR "guest experience")
+site:jumeirah.com careers Dubai "guest relations"
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
+### Priority 2: Luxury retail sales and clienteling
 
-These match your domain expertise.
-
-```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
-```
-
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
-
-Adjacent roles you could pivot into.
+Consultative selling, clienteling, VIP relationship management and visual merchandising. TIVA Bespoke plus the luxury F&B record.
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+linkedin-search: "client advisor" | "sales associate" luxury | "sales advisor" boutique | "client relations" luxury | "clienteling"
+linkedin-search: "customer experience executive" | "customer experience specialist" | "customer relations officer" | "customer excellence"
+site:chalhoubgroup.com careers "sales" Dubai
+site:altayer.com careers "client advisor"
 ```
 
-### Priority 4: Broader Technical / Consulting
+### Priority 3: Data-driven bridge roles (MBA + Google Data Analytics + SQL/Power BI)
 
-Wider net for general technical roles.
+Hospitality, retail or customer roles where the data side is a real part of the job. These are the bridge from guest-facing work into analytics.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+linkedin-search: "revenue coordinator" | "revenue analyst" hotel | "reservations" | "reservations agent" | "revenue executive"
+linkedin-search: "junior data analyst" | "data analyst" | "sales analyst" | "reporting analyst" | "power bi"
+linkedin-search: "CRM executive" | "CRM analyst" | "customer insights" | "business intelligence analyst"
+freehire-search: -q "data analyst" --country AE | -q "power bi" --country AE | -q "sql analyst" --country AE
+```
+
+### Priority 4: Broader customer-facing and operations roles (wider net)
+
+```
+linkedin-search: "sales coordinator" hotel | "F&B sales coordinator" | "events coordinator" | "banquet coordinator"
+linkedin-search: "operations coordinator" | "operations executive" | "customer service executive" | "customer service representative"
+linkedin-search: "front office agent" | "guest service agent" | "front desk"
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+The candidate lives in Dubai. Commute constraints are not confirmed yet (`/setup --section search` can refine this):
+- **Ideal:** Dubai (all areas)
+- **Acceptable:** Sharjah, Ajman (long commute; flag it)
+- **Borderline:** Abu Dhabi, Ras Al Khaimah (would mean relocating; flag it)
+- **Exclude:** outside the UAE, unless the user asks for GCC-wide searches
+
+**Emiratisation filter:** exclude postings restricted to UAE nationals, e.g. "UAE National" in the title, "Emirati only", "UAE nationals only" or "Nafis". The candidate is not eligible.
 
 ## Language Filter
 
-Your working languages and levels are in CLAUDE.md's Languages table. When filtering scraped results, apply `04-job-evaluation.md`'s Language Gate: a posting requiring a language you haven't declared at all is excluded; a posting requiring a higher level than you declared in a language you do work in is not excluded, flag it clearly instead (see `job-scraper/SKILL.md`'s Step 3 "Quick Fit Assessment" for how the flag surfaces in `/scrape` output). Postings simply *written* in a language you don't work in, that don't require it on the job, are fine.
+Working language: English (fluent). Apply `04-job-evaluation.md`'s Language Gate:
+- Exclude: postings whose title or requirements need Arabic, Russian, French, Mandarin, Hindi, etc. ("Arabic Speaker", "Russian Speaking", "fluent Arabic required")
+- Keep: "Arabic is an advantage" / "additional language is a plus", and say in the evaluation that it counts as a soft gap
 
 ## Date Filter
 
@@ -86,5 +97,8 @@ Only include jobs posted within the last 14 days, or with an application deadlin
 
 ## Adapting Queries
 
-If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus:
+- "/scrape hospitality" -> Priority 1 + hotel-group career-page queries
+- "/scrape luxury" -> Priority 2 + maison/retail-group career-page queries
+- "/scrape data" -> Priority 3 (LinkedIn + freehire)
+- "/scrape broad" -> all four priorities

@@ -4,51 +4,51 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+<!-- No formal assessment (PI/DISC/MBTI) provided. Everything below is *[Inferred from CV - review before relying on this]*.
+Replace with real assessment results via /setup if you have them. -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Paul presents as a **people-oriented, composed performer**: strongest when building relationships with guests and clients under time pressure, with a numerate, accuracy-minded streak (Mathematics degree, 100% POS accuracy, SQL/Power BI) that supports a move toward data-informed commercial roles.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Sociability / relationship-building | High (inferred) | Grows repeat VIP and client business through personal relationships |
+| Composure under pressure | High (inferred) | Leads a 15+ person floor team through peak service |
+| Precision / conscientiousness | High (inferred) | 100% transaction accuracy; accurate CRM records |
+| Results orientation | Medium-High (inferred) | Quantifies impact (spend +20%, VIP repeat +30%, event revenue +15%) |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Consultative selling:** reads the guest/client and recommends rather than pushes
+- **Calm leadership:** keeps a busy service floor organized and error rate down
+- **Follow-through:** personalized follow-ups that turn one-off clients into repeat business
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Fast-paced, premium, guest- or client-facing environments
+- Clear service standards and measurable targets
+- Teams where reliability and composure are valued (to confirm)
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Formal supervisory title:** "Leads a 15+ floor team at peak service - ready to formalize that leadership as a supervisor"
+- **Hotel systems (Opera PMS):** "Fast on new systems - 100% accuracy on POS and CRM; Opera is the next system to master"
+- **Analytics experience:** "Applied SQL and Power BI to real hotel booking data; MBA in AI & automation; looking to apply it in a commercial role"
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "guest-centric", "personalized service", "luxury standards", "clienteling", "VIP", "upselling"
+- "calm under pressure", "fast-paced", "team player", "attention to detail", "relationship building"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "cold calling", "high-volume outbound", heavy B2B prospecting (no direct evidence on CV)
+- purely back-office roles with no customer contact (to confirm preference)
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- To confirm via /setup
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** lead with measurable guest/client outcomes (spend +20%, VIP repeat +30%); for data roles, bridge via the hotel revenue project and MBA
+- **CV:** quantified bullets first; for analytics roles put the SQL/Power BI project and certificate high
+- **Interviews:** STAR examples on VIP retention, peak-service leadership, upselling, CRM follow-up (see 07-interview-prep.md)
+- **Don't overstate:** no formal supervisor title, no Opera/Salesforce/Python, analytics experience is project-based, English is the only declared language

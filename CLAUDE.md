@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Paul Owoicho-Oche John
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Paul Owoicho-Oche John, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,85 +10,93 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
+<!-- Source: Paul_Owoicho-Oche_John_CV.pdf, imported 2026-11-13. Items marked (to confirm)
+were not in the CV and are inferred; confirm or correct them with /setup. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Paul Owoicho-Oche John
+- **Location:** Dubai, UAE (commute constraints to confirm; Sharjah/Ajman treated as long commute)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | English | Fluent |
+  <!-- English is the only language declared on the CV. Arabic or Russian "required" postings
+  are a hard no via the Language Gate; "Arabic is a plus" is a soft gap. Add any other
+  language you genuinely work in (and its level) here and in 01-candidate-profile.md. -->
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed - Senior Waiter, Mythos Urban Greek Restaurant (City Walk, Dubai). Notice period: 30 days. UAE visa status: to confirm
+- **CV headline:** "Sales & Customer Experience • Hospitality • Data Analytics"
+- **GitHub:** github.com/paul-analytics (portfolio incl. hotel-revenue-analytics; not on CV yet)
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MBA, AI & Future of Automation** (completed 2024) - Nexford University, USA - GPA 3.92/4.00
+- **B.Sc. (Ed.) Mathematics, Second Class Upper** (2018) - Federal University Dutsin-Ma, Nigeria
+- **Diploma in Computer Studies** (2013) - Judgemat Computer College, Nigeria
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Senior Waiter** (2023 - Present) - **Mythos Urban Greek Restaurant** (City Walk, Dubai, UAE)
+  - Increased average spend per guest by 20% through tailored recommendations and upselling premium items
+  - Grew repeat VIP clientele by 30% through personal guest relationships and high-touch service
+  - Leads a 15+ person floor team during peak service; cut service errors by 25% while upholding luxury standards
+  - Processes POS payments, bill adjustments and refunds with 100% accuracy
+  - Supports VIP events and brand activations, contributing to a 15% uplift in event revenue
+- **Administrative Officer / Customer Service Representative** (2019 - 2021) - **TIVA Bespoke** (Abuja, Nigeria)
+  - Raised client satisfaction by 35% and repeat business by 25% through personalized service and follow-ups
+  - Maintained accurate CRM records and managed end-to-end order fulfillment
+  - Streamlined cross-border team workflows, reducing turnaround time by 25%
+
+### Independent Projects
+- **Hotel Revenue & Booking Analysis** (2026) - SQL Server, Power BI. Compared ADR and cancellation rates by market segment in SQL (group bookings cancel at 34.8% vs 8.9% for offline travel agents); built a Power BI executive dashboard with KPI cards, revenue/booking trends and interactive filters.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Consultative selling, upselling & cross-selling, clienteling & VIP relationship management, complaint resolution & service recovery, team leadership & floor operations
+- **Secondary:** SQL (SQL Server), Power BI (DAX), Microsoft Excel/Word/PowerPoint, sales reporting & data-informed decisions
+- **Domain:** Premium hospitality / luxury F&B (Dubai), bespoke retail, hotel revenue metrics (ADR, cancellation rate by segment), event & brand activation support
+- **Software:** POS systems, CRM systems, SQL Server, Power BI, Microsoft Office
+- **Not on profile (do not claim):** Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, Python, Arabic, Russian
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Google Data Analytics Professional Certificate** - Coursera - completed 2025
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None listed
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- No formal assessment (PI/DISC) provided - traits below are inferred from the CV's own
+claims. Confirm or replace via /setup. -->
+- **Calm under pressure** - leads a 15+ person floor through peak service in a luxury venue
+- **Relationship builder** - repeat VIP clientele +30% (Mythos), repeat business +25% (TIVA)
+- **Accuracy-minded** - 100% POS transaction accuracy; accurate CRM records
+- **Strengths:** consultative selling, guest/client relationships, composure, numeracy (Mathematics degree), turning sales data into decisions
+- **Growth areas:** formal supervisory title (leadership so far is floor-level), hotel systems (Opera PMS), hands-on analytics experience beyond one portfolio project, Arabic
+- **Thrives in:** fast-paced, premium, guest-facing environments with measurable sales targets (to confirm)
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Premium guest and client experiences that drive repeat business (to confirm)
+- Using data (SQL, Power BI) and AI/automation to improve sales and customer decisions (MBA focus; to confirm)
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Luxury hospitality & F&B: Jumeirah, Marriott (St. Regis, W, Luxury Collection), Kerzner (Atlantis, One&Only), Dorchester Collection, Emaar Hospitality, Kitopi, Gates Hospitality
+- Luxury & premium retail: Chalhoub Group, Al Tayer Group, Majid Al Futtaim, Rivoli, Apparel Group; maisons (Louis Vuitton, Van Cleef & Arpels, Vacheron Constantin, Audemars Piguet)
+- Hospitality commercial & analytics: hotel revenue/reservations teams, CRM/CX teams in retail and F&B groups
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Roles requiring Arabic, Russian or another language not declared above (Language Gate)
+- Roles restricted to UAE nationals (Emiratisation / Nafis)
+- Roles outside the UAE (unless asked for GCC-wide search)
+- Salary floor: to confirm
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
 - `cover_letters/` - LaTeX cover letters (custom cover.cls template)
 - `.claude/skills/` - AI skill definitions for the application workflow
-- `.agents/skills/` - Job search CLI tools
+- `.agents/skills/` - Job search CLI tools (LinkedIn, freehire.me; Danish upstream portals removed)
+- `.claude/skills/job-scraper/uae-job-sites.md` - UAE job boards: coverage + manual search links (Bayt, GulfTalent, Naukrigulf, Indeed, Dubizzle are bot-protected)
+- `documents/career/ats-keyword-map.md` - 20 target titles + ATS keywords from live Dubai postings
 
 ## Workflow for New Job Applications
 1. User provides a job posting (URL or text)
