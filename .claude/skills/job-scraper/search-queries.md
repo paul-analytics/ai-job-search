@@ -1,6 +1,6 @@
 # Search Queries for Job Scraper
 
-Personalized for Paul Owoicho-Oche John: Dubai, UAE. Target market is the UAE. Role titles were checked against live Dubai LinkedIn postings on 2026-11-13; see `documents/career/ats-keyword-map.md`.
+Personalized for Paul Owoicho-Oche John: Dubai, UAE. Target market is the UAE. Role titles were checked against live Dubai LinkedIn postings on 2026-11-13; see `documents/career/ats-keyword-map.md`. The updated CV targets **F&B operations, partner and account management, and revenue or business analysis**.
 
 ## Installed portal CLIs (primary for `/scrape`)
 
@@ -34,45 +34,45 @@ Secondary (employer career pages via WebSearch `site:` queries):
 
 Combine every query with `Dubai` (CLI: `--location "Dubai, United Arab Emirates"`). Categories are named by function; the titles inside are interchangeable variants.
 
-### Priority 1: Guest experience and F&B leadership (strongest, current track)
+### Priority 1: F&B operations and guest experience (strongest, current track)
 
-Direct continuation of the Senior Waiter role at Mythos (City Walk): VIP guests, upselling, leading a 15+ person floor team, POS.
+Direct continuation of Mythos (Waiter 2021 -> Team Lead 2023): leading a 15+ person floor team, VIP guests, upselling, complaints, kitchen/bar coordination.
 
 ```
-linkedin-search: "restaurant supervisor" | "F&B supervisor" | "captain" | "head waiter" | "assistant restaurant manager"
-linkedin-search: "guest relations" | "guest experience" | "guest relations executive" | "VIP host" | "head hostess" | "maitre d"
+linkedin-search: "F&B supervisor" | "restaurant supervisor" | "assistant outlet manager" | "assistant restaurant manager" | "captain" | "F&B operations"
+linkedin-search: "guest relations" | "guest experience" | "VIP host" | "head hostess" | "maitre d"
+site:careers.hyatt.com Dubai ("F&B supervisor" OR "assistant manager - outlet")
 site:careers.marriott.com "Dubai" ("restaurant supervisor" OR "guest experience")
-site:jumeirah.com careers Dubai "guest relations"
 ```
 
-### Priority 2: Luxury retail sales and clienteling
+### Priority 2: Partner and account management (CV target)
 
-Consultative selling, clienteling, VIP relationship management and visual merchandising. TIVA Bespoke plus the luxury F&B record.
-
-```
-linkedin-search: "client advisor" | "sales associate" luxury | "sales advisor" boutique | "client relations" luxury | "clienteling"
-linkedin-search: "customer experience executive" | "customer experience specialist" | "customer relations officer" | "customer excellence"
-site:chalhoubgroup.com careers "sales" Dubai
-site:altayer.com careers "client advisor"
-```
-
-### Priority 3: Data-driven bridge roles (MBA + Google Data Analytics + SQL/Power BI)
-
-Hospitality, retail or customer roles where the data side is a real part of the job. These are the bridge from guest-facing work into analytics.
+Restaurant-partner and key-account roles, mostly on food-delivery and quick-commerce platforms. The F&B floor experience plus Excel/SQL is the pitch. Postings ask for "manage a portfolio of restaurant partners", "business reviews", "data insights", "negotiation", "Excel" and "CRM".
 
 ```
-linkedin-search: "revenue coordinator" | "revenue analyst" hotel | "reservations" | "reservations agent" | "revenue executive"
-linkedin-search: "junior data analyst" | "data analyst" | "sales analyst" | "reporting analyst" | "power bi"
-linkedin-search: "CRM executive" | "CRM analyst" | "customer insights" | "business intelligence analyst"
-freehire-search: -q "data analyst" --country AE | -q "power bi" --country AE | -q "sql analyst" --country AE
+linkedin-search: "account manager" restaurants | "key account manager" restaurants | "account management" food | "partner success" | "partner account manager"
+linkedin-search: "account executive" F&B | "key account executive" hospitality | "client success" food delivery
+site:careem.com careers "account manager"
+site:careers.deliveroo.co.uk Dubai "account manager"
+site:careers.talabat.com "account manager"
 ```
 
-### Priority 4: Broader customer-facing and operations roles (wider net)
+### Priority 3: Revenue, business and data analysis (CV target)
+
+SQL (T-SQL), Python (pandas, scikit-learn), Power BI (DAX), backed by the hotel revenue dashboard and the BA data science simulation.
 
 ```
-linkedin-search: "sales coordinator" hotel | "F&B sales coordinator" | "events coordinator" | "banquet coordinator"
-linkedin-search: "operations coordinator" | "operations executive" | "customer service executive" | "customer service representative"
-linkedin-search: "front office agent" | "guest service agent" | "front desk"
+linkedin-search: "revenue coordinator" | "revenue analyst" hotel | "reservations" | "revenue executive"
+linkedin-search: "junior data analyst" | "data analyst" | "business analyst" | "sales analyst" | "reporting analyst" | "power bi"
+linkedin-search: "CRM analyst" | "customer insights" | "business intelligence analyst" | "commercial analyst"
+freehire-search: -q "data analyst" --country AE | -q "power bi" --country AE | -q "business analyst" --country AE
+```
+
+### Priority 4: Luxury retail, CX and wider net
+
+```
+linkedin-search: "client advisor" | "sales associate" luxury | "customer experience executive" | "customer relations officer"
+linkedin-search: "sales coordinator" hotel | "events coordinator" | "operations coordinator" | "operations executive"
 ```
 
 ## Location Filter
@@ -98,7 +98,8 @@ Only include jobs posted within the last 14 days, or with an application deadlin
 ## Adapting Queries
 
 If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus:
-- "/scrape hospitality" -> Priority 1 + hotel-group career-page queries
-- "/scrape luxury" -> Priority 2 + maison/retail-group career-page queries
+- "/scrape hospitality" or "/scrape f&b" -> Priority 1 + hotel-group career-page queries
+- "/scrape accounts" -> Priority 2 (delivery platforms + F&B key accounts)
 - "/scrape data" -> Priority 3 (LinkedIn + freehire)
+- "/scrape luxury" -> Priority 4 retail/CX queries
 - "/scrape broad" -> all four priorities

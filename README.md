@@ -2,9 +2,9 @@
 
 My personal job-search workspace, built on [Claude Code](https://claude.com/claude-code). It evaluates job postings against my profile, tailors my CV and cover letters, and preps me for interviews. It is tuned for the **UAE / Dubai** market and my target tracks:
 
-1. **Guest experience & F&B leadership**: restaurant supervisor, guest relations, VIP host
-2. **Luxury retail sales & clienteling**: client advisor, sales associate, customer experience
-3. **Data-informed commercial roles**: junior data / sales / revenue / CRM analyst (SQL, Power BI)
+1. **F&B operations & guest experience**: F&B supervisor, guest relations, VIP host
+2. **Partner & account management**: restaurant partners on delivery platforms, F&B key accounts
+3. **Revenue, business & data analysis**: junior data / revenue / business / BI analyst (SQL, Python, Power BI)
 
 Key files:
 - `CLAUDE.md`: my candidate profile and workflow rules

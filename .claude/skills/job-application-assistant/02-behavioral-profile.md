@@ -16,13 +16,14 @@ Paul presents as a **people-oriented, composed performer**: strongest when build
 |-------|-------|---------|
 | Sociability / relationship-building | High (inferred) | Grows repeat VIP and client business through personal relationships |
 | Composure under pressure | High (inferred) | Leads a 15+ person floor team through peak service |
-| Precision / conscientiousness | High (inferred) | 100% transaction accuracy; accurate CRM records |
+| Precision / conscientiousness | High (inferred) | 100% transaction accuracy; validated every DAX measure against SQL before publishing |
 | Results orientation | Medium-High (inferred) | Quantifies impact (spend +20%, VIP repeat +30%, event revenue +15%) |
 
 ## Strongest Behaviors
 - **Consultative selling:** reads the guest/client and recommends rather than pushes
 - **Calm leadership:** keeps a busy service floor organized and error rate down
 - **Follow-through:** personalized follow-ups that turn one-off clients into repeat business
+- **Analytical judgment:** judged a model on AUC rather than misleading accuracy; explains results to non-technical managers
 
 ## How You Work Best
 - Fast-paced, premium, guest- or client-facing environments
@@ -30,9 +31,9 @@ Paul presents as a **people-oriented, composed performer**: strongest when build
 - Teams where reliability and composure are valued (to confirm)
 
 ## Growth Areas (frame positively in applications)
-- **Formal supervisory title:** "Leads a 15+ floor team at peak service - ready to formalize that leadership as a supervisor"
+- **Management title:** "Promoted to Team Lead in 2023; leads a 15+ floor team at peak service - ready for a supervisor / assistant manager title"
 - **Hotel systems (Opera PMS):** "Fast on new systems - 100% accuracy on POS and CRM; Opera is the next system to master"
-- **Analytics experience:** "Applied SQL and Power BI to real hotel booking data; MBA in AI & automation; looking to apply it in a commercial role"
+- **Analytics experience:** "Two published projects (hotel revenue SQL/Power BI dashboard; BA data science simulation in Python) plus MBA in AI & automation - ready to apply it in a commercial role"
 
 ## Mapping to Job Posting Language
 
@@ -50,5 +51,5 @@ When a job posting mentions these, flag as **potential friction** (not deal-brea
 ## Using This in Applications
 - **Cover letters:** lead with measurable guest/client outcomes (spend +20%, VIP repeat +30%); for data roles, bridge via the hotel revenue project and MBA
 - **CV:** quantified bullets first; for analytics roles put the SQL/Power BI project and certificate high
-- **Interviews:** STAR examples on VIP retention, peak-service leadership, upselling, CRM follow-up (see 07-interview-prep.md)
-- **Don't overstate:** no formal supervisor title, no Opera/Salesforce/Python, analytics experience is project-based, English is the only declared language
+- **Interviews:** STAR examples on promotion to Team Lead, VIP retention, upselling, complaint handling, hotel dashboard, BA simulation (see 07-interview-prep.md)
+- **Don't overstate:** title is Team Lead (not supervisor/manager); no Opera/Salesforce/Tableau; analytics is project/simulation-based, not a paid analyst role; no P&L or budget ownership; English is the only declared language

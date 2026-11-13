@@ -1,123 +1,130 @@
 # Recruiter Review: Paul Owoicho-Oche John (Dubai)
 
-**Basis:** CV (Nov 2026), plus 67 live Dubai LinkedIn postings sampled on 2026-11-13 across 17 title searches (full descriptions read and keyword-counted). Keyword counts such as "4/4" mean the term appeared in that many of the sampled postings for that title.
+**Basis:**
+- Your **updated 2-page CV** (Nov 2026)
+- 67 live Dubai LinkedIn postings across 17 title searches
+- 9 more postings for F&B operations and partner/account management (Careem, Deliveroo, noon Food, Park Hyatt, Emirates Flight Catering)
 
-**Legend:** ✅ already on your CV · ➕ true for you but phrased differently on the CV (use the posting's exact words) · ❌ genuine gap (don't add it until it's true)
+All postings were fetched on 2026-11-13 and their full descriptions keyword-counted. "4/4" means the term appeared in that many of the sampled postings for that title.
+
+**Legend:** ✅ on your CV · ➕ true for you but phrased differently on the CV (use the posting's exact words) · ❌ genuine gap (don't add it until it's true)
 
 ---
 
 ## Recruiter's read in 30 seconds
 
-- **Your real asset:** quantified luxury-service results in Dubai (spend +20%, repeat VIPs +30%, service errors −25%, 15+ person floor team). Most F&B and retail CVs have no numbers at all.
-- **Your second asset:** a hospitality *and* data profile (SQL, Power BI, MBA in AI, Mathematics). That is rare, and it suits revenue, reservations, CRM and CX roles.
-- **Your biggest filter risk:**
-  - **Language.** 16 of 67 postings asked for Arabic and 10 asked for Russian; often it's in the title ("Arabic Speaker"). Skip those and don't waste applications.
-  - **Opera PMS** is in all 4 sampled Reservations postings and 2 of 4 Revenue postings. It's your #1 learnable gap.
-- **Experience bars:** Dubai supervisor ads ask for "5–7 years F&B". You have about 3 years in Dubai F&B plus 2 in customer service. Apply anyway: they hire on demonstrated leadership. Lead with the 15+ team figure.
-- **Avoid:** postings marked "UAE National" (Emiratisation roles; you're not eligible).
+- **The updated CV fixed the big three:**
+  - The 2021–2023 gap is gone (Waiter → Team Lead promotion).
+  - A visa line is in the header.
+  - GitHub and project links are in.
+
+  UAE recruiters screen on visa/notice first, and yours is "Employment Visa (Transferable) · 30 days", which is a plus.
+- **Your real asset:** quantified results in Dubai F&B (spend +20%, repeat VIPs +30%, service errors −25%, 15+ person floor team), plus a promotion that proves it.
+- **Your second asset:** hospitality, analytics and Python together. The BA simulation shows judgment (AUC over misleading accuracy), and the hotel dashboard shows rigor (DAX validated against SQL). That combination is rare and fits revenue, CRM and **restaurant-partner account management**.
+- **Account management is a strong new track.** Careem, Deliveroo and noon Food hire account managers for restaurant partners. They want "a portfolio of restaurant partners", "data insights", "business reviews", "Excel" and "negotiation", and an F&B insider who can read the data is exactly the pitch. noon Food's executive level asks for only **1 year of client management**.
+- **Biggest filter risks:**
+  - **Language.** Arabic in 16 of 67 postings, Russian in 10. Skip those.
+  - **Opera PMS** for hotel reservations and revenue roles.
+  - **Management years.** Outlet/assistant manager ads want 1–2 years *at supervisor title* (yours is Team Lead).
+- **Avoid:** "UAE National" postings (Emiratisation).
 
 ---
 
 ## The 20 titles, ranked by fit
 
-### Tier A: apply now (direct match)
+### Tier A: apply now
 
-**1. Restaurant Supervisor / F&B Supervisor / Captain**
-- **Why:** You already lead a 15+ floor team at peak service.
+**1. F&B Supervisor / Restaurant Supervisor / Captain**
 - **Keywords:**
-  - Restaurant operations ✅
+  - restaurant operations ✅ (F&B & hospitality operations)
   - front-of-house ➕
-  - service standards ✅ (luxury standards)
+  - service standards ➕
   - guest satisfaction ➕
-  - supervise ➕ ("Lead a 15+ person floor team")
-  - training ❌/➕ (only if you actually train staff)
+  - team leadership & supervision ✅
   - upselling ✅
-  - sales targets ➕
+  - complaint handling ✅
   - POS systems ✅
-  - stock / inventory ✅
-  - F&B ➕
+  - kitchen coordination ✅
+  - allergen knowledge ✅
   - fast-paced ➕
+  - training / coaching ➕ only if you train staff
   - food safety / HACCP ❌
-  - fine dining ➕ if accurate
 - **Frequency:** supervisor 4/4, operations 4/4, standards 3/4, F&B 3/4, leadership 3/4
 
 **2. Guest Relations Executive / Guest Experience Expert**
 - **Keywords:**
-  - guest experience ➕
-  - guest relations ➕
-  - VIP ✅
+  - guest experience ✅
+  - VIP relations ✅
   - personalized service ✅
-  - complaint handling / service recovery ✅
-  - luxury / 5-star ✅ (luxury)
-  - check-in ❌ (hotel front office)
-  - Opera ❌
-  - communication skills ➕
-  - interpersonal ➕
+  - service recovery ✅
+  - complaints ✅
+  - luxury ➕
   - brand standards ➕
+  - communication skills ➕
+  - check-in ❌
+  - Opera ❌
 - **Frequency:** guest experience 3/3, check-in 3/3, standards 3/3
 
-**3. VIP Host / Head Host(ess) / Maître d'**
+**3. Account Management Executive / Specialist: restaurant partners (food delivery)**
+- **Keywords:**
+  - client management ✅ (TIVA: client satisfaction, follow-ups, CRM)
+  - relationship management ✅
+  - restaurant partners ➕ (F&B insider: frame it as such)
+  - client retention ✅
+  - MS Excel ✅
+  - CRM software ✅
+  - analytical skills ✅
+  - data insights ✅
+  - targets ➕
+  - negotiation ❌/➕ only with a real example
+  - campaigns ❌
+  - portfolio management ❌
+- **Postings:** noon Food Executive (1 yr), Specialist (2–3 yrs); Careem Account Manager I (2–4 yrs)
+
+**4. VIP Host / Head Host(ess) / Maître d'**
 - **Keywords:**
   - VIP ✅
-  - reservations ➕ (table bookings, if true)
-  - guest flow ➕
+  - guest experience ✅
   - hospitality ✅
-  - F&B ➕
-  - luxury ✅
+  - F&B ✅
+  - reservations ➕ (table bookings, if true)
   - interpersonal ➕
   - brand standards ➕
-  - SevenRooms / table management ❌ (unless used)
+  - SevenRooms / table management ❌
 - **Frequency:** hospitality 4/4, VIP 3/4, reservations 3/4
 
-**4. Client Advisor (luxury retail / maison)**
+**5. Client Advisor (luxury retail / maison)**
 - **Keywords:**
-  - client advisor ➕
-  - clienteling ✅
-  - luxury ✅
+  - clienteling ➕ (client retention & loyalty)
+  - luxury ➕
   - sales targets ➕
   - client relationship ✅
   - CRM ✅
-  - after-sales ❌/➕
-  - brand ambassador ➕
+  - consultative selling ✅
   - events ✅
-  - retail ✅ (bespoke retail)
   - customer service ✅
-  - compliance ➕
-- **Frequency:** sales 4/4, customer service 4/4, standards 4/4, targets 3/4, brand 3/4
-
-**5. Sales Associate / Sales Advisor (Luxury Retail)**
-- **Keywords:**
-  - luxury retail ➕
-  - sales targets / KPIs ➕
-  - clienteling ✅
-  - visual merchandising ✅
-  - upselling & cross-selling ✅
-  - client experience ➕
-  - loyalty ✅
-  - grooming standards ➕
-  - stock replenishment ✅
+  - brand ambassador ➕
   - after-sales ❌
-  - POS ✅
-- **Frequency:** luxury 4/4, sales 4/4, retail 4/4, targets 3/4, interpersonal 3/4
+- **Frequency:** sales 4/4, customer service 4/4, standards 4/4, targets 3/4
 
 **6. Customer Experience Executive / Specialist**
 - **Keywords:**
   - customer experience ✅
   - customer satisfaction ✅
-  - CSAT / NPS ❌ (unless measured)
-  - retention ➕ (repeat business)
+  - retention ✅
   - feedback ➕
   - complaint resolution ✅
   - CRM ✅
+  - KPI reporting ✅
+  - dashboards ✅
+  - process improvement ✅
+  - CSAT / NPS ❌
   - Salesforce ❌
-  - reporting ✅ (sales reporting)
-  - customer journey ➕
 - **Frequency:** customer service 4/4, retention 4/4, feedback 4/4, CRM 3/4, reporting 3/4
 
 **7. Customer Relations Officer**
 - **Keywords:**
   - customer relationship management (CRM) ✅
-  - customer service ✅
   - complaint management ✅
   - client satisfaction ✅
   - follow-up ✅
@@ -125,226 +132,214 @@
   - bachelor's degree ✅
   - hospitality ✅
 
-**8. Guest Service / Customer Service Executive (premium brands)**
+**8. Sales Associate / Advisor: luxury or premium retail**
 - **Keywords:**
-  - customer service ✅
-  - service standards ✅
-  - complaint handling ✅
-  - customer satisfaction ✅
-  - communication skills ➕
-  - contact centre ❌
-  - live chat / email ❌/➕
-  - English ✅
-  - Arabic ❌ (check the ad)
-- **Frequency:** standards 4/4, customer service 3/4, English 3/4
+  - consultative selling ✅
+  - upselling ✅
+  - client retention & loyalty ✅
+  - sales targets ➕
+  - luxury retail ➕
+  - visual merchandising ➕ (on your earlier CV; true)
+  - stock replenishment ➕ (earlier CV)
+  - grooming standards ➕
+  - POS ✅
+  - after-sales ❌
+- **Frequency:** luxury 4/4, sales 4/4, retail 4/4, targets 3/4
 
-**9. Events / F&B Sales Coordinator (hotel)**
+### Tier B: strong bridge roles (use the data side)
+
+**9. Key Account Manager: restaurants / F&B (delivery platforms, F&B suppliers)**
 - **Keywords:**
+  - key account management ❌ (no formal portfolio)
+  - business reviews ❌
+  - partner performance metrics ➕ (KPI reporting)
+  - data-driven insights ✅
+  - Excel ✅
+  - stakeholder management ➕
+  - negotiation ❌/➕
+  - commercial ❌
+  - GTV / basket size / order frequency ❌ (learn the vocabulary)
+- **Postings:** Deliveroo KAM / SMB AM, Careem AM II (2+ yrs). A stretch, but your F&B and data mix is the differentiator.
+
+**10. Revenue Coordinator / Revenue Analyst (hotel)**
+- **Keywords:**
+  - revenue & booking analysis ✅
+  - ADR ✅
+  - booking mix ✅
+  - cancellation rate ✅
+  - market segment ✅
+  - Excel scenario models ✅
+  - Power BI ✅
+  - SQL ✅
+  - KPI reporting ✅
+  - pricing ➕
+  - RevPAR ❌
+  - occupancy ❌/➕
+  - forecasting ❌
+  - Opera PMS ❌
+  - IDeaS / Duetto ❌
+  - pickup ❌
+- **Frequency:** revenue 4/4, revenue management 3/4, reporting 3/4, pricing 3/4, Opera 2/4
+
+**11. Junior Data Analyst**
+- **Keywords:**
+  - SQL ✅
+  - window functions ✅
+  - CASE WHEN ✅
+  - joins / CTEs ➕ (add only if used)
+  - Excel ✅ (lookups)
+  - PivotTables ➕
+  - Python ✅
+  - pandas ✅
+  - Power BI ✅
+  - dashboards ✅
+  - KPIs ✅
+  - data cleaning ✅
+  - data validation ✅
+  - statistics ➕ (Mathematics B.Sc.)
+  - predictive modeling ✅
+  - Tableau ❌
+  - NumPy ➕ if used
+- **Frequency:** Excel 4/4, SQL 3/4, Power BI 3/4, Python 3/4, Tableau 3/4, statistics 3/4
+
+**12. Business Analyst (junior)**
+- **Keywords:**
+  - business analysis ✅ (in your headline)
+  - stakeholder ➕ ("non-technical manager")
+  - documentation ✅ (README, data dictionary)
+  - process improvement ✅
+  - reporting ✅
+  - SQL ✅
+  - Power BI ✅
+  - Excel ✅
+  - requirements gathering ❌
+  - UAT ❌
+  - Agile / Scrum ❌
+  - Jira ❌
+- **Frequency:** requirements 4/4, UAT 3/4, Agile 3/4, stakeholder 3/4
+
+**13. Sales Analyst / Commercial Analyst (retail, F&B)**
+- **Keywords:**
+  - sales reporting ➕
+  - KPI reporting ✅
+  - dashboards ✅
+  - SQL ✅
+  - Power BI ✅
+  - Excel scenario models ✅
+  - trend analysis ➕
+  - data-driven decisions ✅
+  - forecasting ❌
+
+**14. Junior BI Analyst / Power BI Analyst**
+- **Keywords:**
+  - Power BI ✅
+  - DAX ✅
+  - data modeling ✅
+  - SQL Server ✅
+  - T-SQL ✅
+  - KPI dashboards ✅
+  - data visualization ✅
+  - data validation ✅
+  - ETL ❌
+
+**15. CRM Executive / CRM Analyst**
+- **Keywords:**
+  - CRM ✅
+  - client retention & loyalty ✅
+  - data analysis ✅
+  - segmentation ➕ (market segments in hotel project)
+  - campaigns ❌
+  - lifecycle ❌
+  - Salesforce / SFMC ❌
+  - Braze / Klaviyo ❌
+- **Frequency:** CRM 4/4, retention 3/4, segmentation 3/4, campaign 3/4
+
+**16. Reservations Agent / Executive (hotel)**
+- **Keywords:**
+  - reservations ➕
+  - upsell ✅
+  - revenue ➕
+  - guest experience ✅
+  - attention to detail ✅ (100% accuracy)
+  - Microsoft Office ✅
+  - Opera / Opera Cloud ❌ (4/4: the blocker)
+  - PMS ❌
+
+**17. Customer Insights / CX Analyst**
+- **Keywords:**
+  - customer insights ➕
+  - predictive modeling ✅
+  - customer booking data ✅ (BA simulation)
+  - Python ✅
+  - SQL ✅
+  - Power BI ✅
+  - segmentation ➕
+  - NPS / CSAT ❌
+
+### Tier C: wider net
+
+**18. Assistant Outlet Manager / Assistant Restaurant Manager (hotel F&B)**
+- **Keywords:**
+  - restaurant operations ✅
+  - guest satisfaction ➕
+  - team leadership ✅
+  - upselling ✅
+  - service recovery ✅
+  - POS systems ✅
+  - restaurant management systems ➕
+  - daily briefings / coaching ➕ only if true
+  - inventory ➕
+  - labour cost / budgeting ❌
+  - P&L ❌
+  - 1–2 yrs supervisory title ❌ (yours is Team Lead)
+- **Postings:** Park Hyatt (3–5 yrs F&B incl. 1–2 supervisory)
+
+**19. Events / F&B Sales Coordinator (hotel)**
+- **Keywords:**
+  - events ✅ (VIP events, brand activations)
   - sales coordination ➕
-  - events ✅ (VIP events and brand activations)
   - CRM ✅
   - Excel ✅
   - MS Office ✅
   - hotel PMS ❌
-  - site inspections ❌
-  - proposals / quotations ➕ if true
-  - luxury hospitality ✅
-- **Frequency:** sales 4/4, CRM 3/4, Excel 3/4, brand 3/4
-- **Watch:** several of these ads are "Russian Speaker"
+- **Watch:** "Russian Speaker" ads are common here
 
-### Tier B: strong bridge roles (use the data side)
-
-**10. Revenue Coordinator / Revenue Analyst (hotel)**
-- **Why:** Your hotel booking project analyzes ADR and cancellations, which is exactly this job.
-- **Keywords:**
-  - revenue management ➕
-  - ADR ✅
-  - RevPAR ❌ (not in your project)
-  - occupancy ❌/➕
-  - forecasting ❌
-  - pricing ➕
-  - market segment ✅
-  - cancellation analysis ✅
-  - Excel ✅
-  - Power BI ✅
-  - reporting ✅
-  - Opera PMS ❌
-  - IDeaS / Duetto ❌
-  - pickup report ❌
-  - distribution ❌
-- **Frequency:** revenue 4/4, revenue management 3/4, reporting 3/4, pricing 3/4, Opera 2/4
-
-**11. Reservations Agent / Executive (hotel)**
-- **Keywords:**
-  - reservations ➕
-  - Opera / Opera Cloud ❌
-  - property management system (PMS) ❌
-  - upsell ✅
-  - revenue ➕
-  - room types / rates ❌
-  - guest experience ✅
-  - attention to detail ✅
-  - fast-paced ✅
-  - Microsoft Office ✅
-  - communication skills ➕
-- **Frequency:** Opera 4/4, upsell 4/4, revenue 4/4, attention to detail 4/4, Microsoft Office 4/4
-
-**12. Junior Data Analyst**
-- **Keywords:**
-  - SQL ✅
-  - joins / aggregations / CTEs ➕ (list them if you used them)
-  - Excel ✅
-  - PivotTables ➕
-  - Power BI ✅
-  - Tableau ❌
-  - Python ❌ (pandas/NumPy)
-  - dashboards ✅
-  - KPIs ✅
-  - data analysis ✅
-  - data cleaning ➕
-  - statistics ➕ (Mathematics B.Sc.)
-  - business intelligence ➕
-  - insights ✅
-- **Frequency:** Excel 4/4, SQL 3/4, Power BI 3/4, Python 3/4, Tableau 3/4, statistics 3/4
-
-**13. Sales Analyst / Sales Reporting Analyst (retail, F&B)**
-- **Keywords:**
-  - sales reporting ✅
-  - sales performance ➕
-  - KPIs ✅
-  - Excel ✅
-  - Power BI ✅
-  - SQL ✅
-  - dashboards ✅
-  - trend analysis ✅
-  - forecasting ❌
-  - data-driven decisions ✅
-  - stakeholders ➕
-
-**14. CRM Executive / CRM Coordinator (clienteling)**
-- **Keywords:**
-  - CRM ✅
-  - clienteling ✅
-  - segmentation ❌/➕
-  - campaigns ❌
-  - retention ✅
-  - loyalty ✅
-  - lifecycle ❌
-  - client database ✅
-  - data analysis ✅
-  - Salesforce / Salesforce Marketing Cloud ❌
-  - Braze / Klaviyo ❌
-  - WhatsApp Business ❌/➕
-  - GCC market ➕
-- **Frequency:** CRM 4/4, retention 3/4, segmentation 3/4, campaign 3/4
-
-**15. Customer Insights / CX Analyst**
-- **Keywords:**
-  - customer insights ➕
-  - customer feedback ✅
-  - customer satisfaction ✅
-  - NPS / CSAT ❌
-  - Power BI ✅
-  - SQL ✅
-  - dashboards ✅
-  - segmentation ➕ (market segment analysis)
-  - reporting ✅
-
-**16. Junior Business Intelligence (BI) Analyst / Power BI Analyst**
-- **Keywords:**
-  - Power BI ✅
-  - DAX ✅
-  - data modeling ➕ if true
-  - SQL Server ✅
-  - ETL ❌
-  - KPI dashboards ✅
-  - interactive reports ✅
-  - business intelligence ➕
-  - stakeholder reporting ➕
-
-### Tier C: wider net (credible, weaker match)
-
-**17. Operations Coordinator / Operations Executive**
+**20. Operations Coordinator / Operations Executive**
 - **Keywords:**
   - operations ✅
-  - coordination ✅
-  - scheduling ➕
+  - coordination ✅ (kitchen/bar, cross-border teams)
   - order fulfillment ✅
-  - workflow / process improvement ✅ (turnaround −25%)
-  - Excel ✅
-  - MS Office ✅
-  - documentation ➕
-  - logistics ❌
-  - compliance ➕
-- **Frequency:** operations 4/4, coordination 4/4, Excel 4/4
-- **Watch:** 2 of 4 sampled were "UAE National" only
-
-**18. Front Office / Guest Service Agent (hotel)**
-- **Keywords:**
-  - front office ❌
-  - check-in / check-out ❌
-  - Opera ❌
-  - guest experience ✅
-  - upselling ✅
-  - luxury ✅
-  - cash handling ✅ (POS, refunds)
-  - brand standards ➕
-- **Frequency:** front office 4/4, guest experience 3/4, luxury 3/4; Russian 3/4
-
-**19. Sales Executive (hospitality / F&B / retail)**
-- **Keywords:**
-  - sales targets ➕
-  - prospecting ❌
-  - lead generation ❌
-  - B2B ❌
-  - client acquisition ❌
-  - negotiation ❌/➕
-  - CRM ✅
-  - relationship management ✅
-  - UAE driving license ❌ (often required)
-- **Frequency:** targets 4/4, sales 4/4, driving license 2/4, prospecting 2/4
-
-**20. Junior Business Analyst**
-- **Keywords:**
-  - requirements gathering ❌
-  - stakeholder management ➕
-  - documentation ➕
   - process improvement ✅
-  - UAT ❌
-  - Agile / Scrum ❌
-  - Jira ❌
-  - reporting ✅
-  - SQL ✅
-  - Power BI ✅
-  - MBA ✅
-- **Frequency:** requirements 4/4, UAT 3/4, Agile 3/4, stakeholder 3/4
-- **Assessment:** a stretch; a BA certificate (e.g., ECBA) or an Agile course would make it credible
+  - Excel ✅
+  - documentation ✅
+  - scheduling ➕
+  - logistics ❌
+- **Watch:** about half of the sampled ads were "UAE National" only
+
+*Dropped from the earlier list:* Front Office Agent, Sales Executive (B2B prospecting) and Customer Service Executive. They are weaker matches for your stated targets, and the front office ads are heavy on Opera and Russian.
 
 ---
 
-## Keywords to tighten on your CV right now (truthful, ATS-literal)
+## Keyword tightening on the updated CV (truthful, ATS-literal)
 
-| CV currently says | Postings say (use this) | Where |
+| Updated CV says | Postings say (use when true) | Why |
 |---|---|---|
-| "Senior Waiter" (title must stay) | keep the title; add the function in the bullets: "**Floor supervision** of a 15+ person team" | Experience |
-| "luxury standards" | "**service standards** / **brand standards**" | Mythos bullet 3 |
-| "repeat VIP clientele" | "**guest retention** / **customer retention** / **loyalty**" | Mythos bullet 2 |
-| "Upselling premium items" | "**upselling** against **sales targets**" (only if there were targets) | Mythos bullet 1 |
-| "POS & CRM Operations" | "**POS systems**", "**CRM systems**", "**cash handling**" | Skills |
-| "Complaint Resolution" | "**complaint handling**", "**guest satisfaction**" | Skills |
-| "Sales Reporting & Data-Informed Decisions" | "**KPI dashboards**", "**data analysis**", "**business intelligence**" | Skills (analyst CVs) |
-| "SQL (SQL Server)" | "**SQL** (joins, aggregations, CTEs)", but only the ones you actually used | Skills (analyst CVs) |
-| (missing) | **GitHub link** (github.com/paul-analytics, which has hotel-revenue-analytics) | Header (analyst CVs) |
+| Forage simulation only under Projects | Also list it under **Certifications**: "British Airways Data Science Job Simulation – Forage (2026)" | ATS and recruiters scan the Certifications block for "certificate" |
+| "Worked closely with kitchen and bar teams" | "**cross-functional coordination** with kitchen and bar" | Wording used in operations and account-manager ads |
+| "Client Retention & Loyalty" | for account roles: "**client relationship management**", "**account management**" (TIVA) | Careem and noon list "client management experience" |
+| "KPI Reporting & Dashboards" | for account roles: "**performance reporting**", "**data insights**" | Exact phrases in Careem and Deliveroo ads |
+| "Handled guest complaints…" | "**service recovery**" + "**guest satisfaction**" | Supervisor and guest relations ads |
+| "Team Leadership & Supervision" | keep; add "**daily briefings**" or "**on-the-job coaching**" only if you do them | Park Hyatt outlet roles |
+| "Judegmat Computer College" | ⚠ the earlier CV said "Judgemat"; check the spelling on your diploma | A typo on a CV is an easy reject |
 
 ## Gaps worth closing (by payoff)
 
-1. **Opera PMS / Opera Cloud.** Unlocks Reservations, Front Office, Revenue Coordinator and Guest Relations roles. Oracle has free Opera Cloud learning paths, and UAE hotel schools run short courses.
-2. **A visa / availability line in your header**, e.g. "UAE Employment Visa · 30-day notice" (if true). UAE recruiters filter on it, and your 30-day notice is already a plus.
-3. **Excel depth phrasing** (PivotTables, XLOOKUP). It appears in every analyst and coordinator posting.
-4. **Python basics (pandas) or Tableau.** In 3 of 4 data analyst postings each.
-5. **Food safety: Dubai Municipality PIC / HACCP Level 2.** Cheap and fast, and it strengthens supervisor applications.
-6. **Explain 2021–2023.** The CV has a 2-year gap between TIVA and Mythos. If the MBA was during it, label it, e.g. "MBA (2022–2024)".
+1. **Opera PMS / Opera Cloud.** Unlocks hotel reservations, front office and revenue coordinator roles.
+2. **Food safety: Dubai Municipality PIC (Person in Charge) / HACCP Level 2.** Cheap, fast, and expected for supervisor and outlet roles.
+3. **Account-management vocabulary:** GTV, AOV/basket size, order frequency, partner business review. If you build a small portfolio project on restaurant/delivery data (e.g. menu performance or partner KPIs in Power BI), you can use these terms truthfully.
+4. **Tableau** (3 of 4 data analyst ads) and **Excel PivotTables** phrasing.
+5. **A BA basics course** (requirements, UAT, Agile) if you push the business analyst track.
 
 ## Sources
-- LinkedIn Dubai postings, fetched 2026-11-13 via `linkedin-search`. Employers sampled include Louis Vuitton, Van Cleef & Arpels, Vacheron Constantin, Audemars Piguet, Marriott (St. Regis, W, Luxury Collection), Rixos, Minor Hotels, NH Collection, Kempinski, Dorchester Collection (The Lana), Kitopi, EATX, Delano Dubai, DAMAC Hotels, Hilton, JW Marriott, Emirates, dnata, Apparel Group, Concentrix and Udrive.
-- freehire.me UAE data-analyst listings (Caliberly, Munich Re, Vertiv), fetched 2026-11-13.
+- LinkedIn Dubai postings fetched 2026-11-13 via `linkedin-search`. Employers sampled include Careem, Deliveroo, noon Food, Park Hyatt, Emirates Flight Catering, Louis Vuitton, Van Cleef & Arpels, Vacheron Constantin, Audemars Piguet, Marriott (St. Regis, W, Luxury Collection), Rixos, Minor Hotels, NH Collection, Kempinski, Dorchester Collection, Kitopi, EATX, Delano Dubai, DAMAC Hotels, Hilton, JW Marriott, Emirates, dnata, Apparel Group, Concentrix and Udrive.
+- freehire.me UAE data-analyst listings, fetched 2026-11-13.

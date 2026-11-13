@@ -33,12 +33,12 @@ specific true story before an interview - never invent the situation details. --
 **R:** Repeat VIP clientele up **30%**; event/brand activation revenue up **15%**.
 **Use for:** "How do you build long-term client relationships?", "Describe exceptional service you delivered"
 
-### 3. Leading the floor at peak service (Leadership under pressure)
-**S:** Peak service with a 15+ person floor team in a luxury setting. (add: a specific busy night / incident)
-**T:** Keep service flawless and the team coordinated.
-**A:** Assigned sections, coordinated with the kitchen, stepped in on problem tables. (add: the key decision you made)
-**R:** Service errors down **25%** while upholding luxury standards.
-**Use for:** "Tell me about leading a team", "How do you handle pressure?"
+### 3. Promotion to Team Lead (Leadership under pressure)
+**S:** Joined Mythos as a Waiter in 2021 in a high-volume restaurant; promoted to Senior Waiter (Team Lead) in 2023. (add: why you were promoted / the moment it was decided)
+**T:** Lead a 15+ person floor team at peak service while keeping luxury standards.
+**A:** Coordinated sections and order timing with the kitchen and bar, resolved guest complaints on the spot. (add: the key decision on a specific busy night)
+**R:** Service errors down **25%**.
+**Use for:** "Tell me about leading a team", "How do you handle pressure?", "Describe your career progression"
 
 ### 4. Client satisfaction at TIVA Bespoke (Service recovery / CRM)
 **S:** Bespoke retail clients, cross-border team, manual follow-ups. (add: one unhappy client you won back)
@@ -47,12 +47,19 @@ specific true story before an interview - never invent the situation details. --
 **R:** Client satisfaction **+35%**, repeat business **+25%**, turnaround time **-25%**.
 **Use for:** "Tell me about handling a difficult customer", "How do you improve a process?"
 
-### 5. Hotel Revenue & Booking Analysis (Data analysis - for analyst roles)
-**S:** Hotel booking dataset; question of which segments drive revenue and cancellations.
-**T:** Find actionable revenue insights and present them for executives.
-**A:** Queried in SQL Server to compare ADR and cancellation rate by market segment; built a Power BI dashboard with KPI cards, trends and filters.
-**R:** Showed group bookings cancel at **34.8%** vs **8.9%** for offline travel agents - a clear target for deposit/cancellation policy.
-**Use for:** "Walk me through an analysis you did", "How would you use data in this role?"
+### 5. Hotel Revenue & Booking Performance Dashboard (Data analysis / attention to detail)
+**S:** Hotel booking dataset covering 2 hotels and 6 market segments; question of what drives revenue (ADR, booking mix) and cancellations.
+**T:** Build an executive-ready view of revenue and cancellation risk.
+**A:** Built a SQL Server database and T-SQL queries (GROUP BY, CASE WHEN, window functions); designed a two-page Power BI report (Executive Overview, Cancellation Risk) with 6 DAX measures, KPI cards and synced slicers; validated every DAX measure against SQL.
+**R:** Caught and fixed a data-type bug before publishing; documented on GitHub (README, data dictionary, DAX notes, limitations). Insight: group bookings cancel at **34.8%** vs **8.9%** for offline travel agents.
+**Use for:** "Walk me through an analysis you did", "How do you make sure your numbers are right?"
+
+### 6. British Airways Data Science Simulation (Analytical judgment / communicating to non-technical people)
+**S:** Forage job simulation: 50,000 customer bookings, predict who completes a booking; plus a lounge-demand question for Heathrow T3.
+**T:** Build a credible model and explain it to a non-technical manager; size lounge eligibility.
+**A:** Cleaned the data in pandas (719 duplicates removed), trained a Random Forest with 5-fold cross-validation; built an Excel lookup model for 10,000 summer departures by haul and time of day with Low/Base/High scenarios.
+**R:** AUC **0.76**; rejected the misleading 85% accuracy (equal to the no-booking baseline); one-slide summary naming purchase lead time and flight hour as top drivers.
+**Use for:** "Tell me about a time a metric was misleading", "How do you explain data to non-technical stakeholders?"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

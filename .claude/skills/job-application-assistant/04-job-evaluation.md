@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** consultative selling, upselling & cross-selling, clienteling & VIP relationship management, complaint resolution & service recovery, floor/team leadership in luxury F&B, POS transaction accuracy, CRM record-keeping
-**Moderate match areas:** SQL (SQL Server), Power BI (DAX), Excel, sales reporting, hotel revenue metrics (ADR, cancellations by segment) - one portfolio project + Google Data Analytics certificate, no paid analytics role yet; visual merchandising, inventory & stock replenishment, event & brand activation support
-**Weak match areas:** Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, Python, revenue management systems (IDeaS, Duetto), marketing automation (Braze, Klaviyo, SFMC), Agile/UAT/Jira business analysis, food safety certification (HACCP/PIC), Arabic, Russian
+**Strong match areas:** F&B / restaurant operations, guest experience & VIP relations, consultative selling & upselling, team leadership (Team Lead, 15+ floor team), service recovery & complaints, client retention & loyalty, POS transaction accuracy, CRM record-keeping, menu & allergen knowledge
+**Moderate match areas:** SQL (T-SQL incl. window functions), Python (pandas, scikit-learn), Power BI (DAX, data modeling), Excel (lookups, scenario models), data cleaning & validation, predictive modeling, KPI reporting - two published projects (hotel revenue dashboard, BA data science simulation) + Google Data Analytics certificate, no paid analyst role yet; partner/account management (transferable from VIP and client retention, no formal account portfolio yet)
+**Weak match areas:** Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, revenue management systems (IDeaS, Duetto), marketing automation (Braze, Klaviyo, SFMC), Agile/UAT/Jira business analysis, food safety certification (PIC/HACCP), budgeting / P&L / labour-cost control, B2B new-business sales, Arabic, Russian
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** premium/luxury restaurant service in Dubai (2023-present), guest relations & VIP clientele, upselling against spend targets, peak-service floor leadership (15+ staff)
-**Moderate:** bespoke retail customer service & CRM/order fulfillment (TIVA Bespoke, 2019-2021), administrative coordination, luxury retail sales / client advisor roles (transferable), hotel reservations & revenue coordination (portfolio-backed)
-**Entry-level:** data analyst / BI / reporting analyst, CRM analyst, revenue analyst, business analyst - credible at junior level via MBA (AI & Automation), Mathematics B.Sc., Google certificate and SQL/Power BI project
+**Strong:** high-volume premium restaurant service in Dubai (2021-present; Waiter -> promoted Team Lead 2023), guest relations & VIP clientele, upselling, peak-service floor leadership (15+ staff), kitchen/bar coordination
+**Moderate:** bespoke retail customer service & CRM/order fulfillment (TIVA Bespoke, 2019-2021), partner/account management for restaurant partners (food-delivery platforms - strong F&B insight, no account portfolio yet), luxury retail clienteling, hotel reservations & revenue coordination (portfolio-backed)
+**Entry-level:** data / BI / revenue / CRM / business analyst - credible at junior level via MBA (AI & Automation), Mathematics B.Sc., Google certificate, Forage BA simulation and the SQL/Power BI hotel project; F&B assistant manager / outlet manager (postings want 1-2 yrs at supervisor title)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -108,19 +108,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- Step up from senior floor role to a titled supervisory / guest-experience / client-advisor position in luxury hospitality or retail (to confirm)
-- Bridge into data-informed commercial roles (revenue, CRM, sales/CX analytics) that use SQL, Power BI and the MBA (to confirm)
+- Step up from Team Lead to a titled F&B supervisor / assistant outlet manager / operations role (CV target: F&B operations)
+- Move into partner & account management (e.g. restaurant partners on delivery platforms) or revenue / business analysis, using SQL, Python and Power BI (CV targets)
 - Stay in Dubai with a stronger salary and progression path (to confirm)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: building guest/client relationships, selling premium products, leading a team through busy service, turning sales data into decisions (inferred from CV - to confirm)
+- Tasks that energize: building guest/partner relationships, selling premium products, leading a team through busy service, turning sales and booking data into decisions (inferred from CV - to confirm)
 - Tasks that drain: to confirm
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
 - **Security**: currently employed in Dubai, 30-day notice period - can be selective; salary floor to confirm
 - **Flexibility**: hospitality shift patterns are familiar; schedule constraints to confirm
-- **Professional development**: hotel systems (Opera PMS), analytics depth (Python/Tableau optional), supervisory title
+- **Professional development**: hotel systems (Opera PMS), management title, a first paid analytics or account-management role
 
 ### 6. Salary Benchmark (Optional)
 

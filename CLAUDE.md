@@ -10,54 +10,72 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- Source: Paul_Owoicho-Oche_John_CV.pdf, imported 2026-11-13. Items marked (to confirm)
-were not in the CV and are inferred; confirm or correct them with /setup. -->
+<!-- Source: updated CV (Paul_Owoicho-Oche_John_CV.pdf, 2 pages), imported 2026-11-13; replaces the
+earlier 1-page CV. Items marked (to confirm) are not on the CV; confirm or correct them with /setup. -->
 
 ### Identity
 - **Name:** Paul Owoicho-Oche John
 - **Location:** Dubai, UAE (commute constraints to confirm; Sharjah/Ajman treated as long commute)
+- **Nationality:** Nigerian
+- **Visa:** UAE Employment Visa (Transferable)
+- **Notice period:** 30 days
+- **Contact:** +971 52 463 4624 · johnpaulowoicho@gmail.com · linkedin.com/in/paul-john-4a9463175 · github.com/paul-analytics
 - **Languages:**
   | Language | Level |
   |----------|-------|
   | English | Fluent |
   <!-- English is the only language declared on the CV. Arabic or Russian "required" postings
-  are a hard no via the Language Gate; "Arabic is a plus" is a soft gap. Add any other
-  language you genuinely work in (and its level) here and in 01-candidate-profile.md. -->
+  are a hard no via the Language Gate; "Arabic is a plus" is a soft gap. -->
 - **CV language:** English
 
-- **Status:** Employed - Senior Waiter, Mythos Urban Greek Restaurant (City Walk, Dubai). Notice period: 30 days. UAE visa status: to confirm
-- **CV headline:** "Sales & Customer Experience • Hospitality • Data Analytics"
-- **GitHub:** github.com/paul-analytics (portfolio incl. hotel-revenue-analytics; not on CV yet)
+- **Status:** Employed - Senior Waiter (Team Lead), Mythos Urban Greek Restaurant (City Walk, Dubai)
+- **CV headline:** "Hospitality Operations • Customer Experience • Business & Data Analysis"
+- **Stated targets (CV):** F&B operations, partner and account management, revenue or business analysis roles
 
 ### Education
-- **MBA, AI & Future of Automation** (completed 2024) - Nexford University, USA - GPA 3.92/4.00
+- **MBA, AI & Future of Automation** (2024) - Nexford University, USA - GPA 3.92/4.00
 - **B.Sc. (Ed.) Mathematics, Second Class Upper** (2018) - Federal University Dutsin-Ma, Nigeria
-- **Diploma in Computer Studies** (2013) - Judgemat Computer College, Nigeria
+- **Diploma in Computer Studies** (2013) - Judegmat Computer College, Nigeria <!-- spelled "Judgemat" on the earlier CV - confirm which is correct -->
 
 ### Professional Experience
-- **Senior Waiter** (2023 - Present) - **Mythos Urban Greek Restaurant** (City Walk, Dubai, UAE)
-  - Increased average spend per guest by 20% through tailored recommendations and upselling premium items
-  - Grew repeat VIP clientele by 30% through personal guest relationships and high-touch service
-  - Leads a 15+ person floor team during peak service; cut service errors by 25% while upholding luxury standards
-  - Processes POS payments, bill adjustments and refunds with 100% accuracy
-  - Supports VIP events and brand activations, contributing to a 15% uplift in event revenue
+- **Senior Waiter (Team Lead)** (2023 - Present) - **Mythos Urban Greek Restaurant** (City Walk, Dubai, UAE)
+  - Promoted from Waiter in 2023 to lead a 15+ person floor team at peak service, cutting service errors by 25%
+  - Increased average spend per guest by 20% through tailored menu recommendations and premium upsells
+  - Grew repeat VIP clientele by 30% by building personal guest relationships and delivering high-touch service
+  - Supported VIP events and brand activations, contributing to a 15% uplift in event revenue
+  - Processed POS payments, bill adjustments and refunds with 100% accuracy
+  - Handled guest complaints on the floor and resolved service issues on the spot
+- **Waiter** (2021 - 2023) - **Mythos Urban Greek Restaurant** (City Walk, Dubai, UAE)
+  - Served a busy section in a high-volume restaurant, keeping orders accurate and on time through peak service
+  - Built detailed menu and allergen knowledge to recommend dishes and drinks that matched guest preferences
+  - Worked closely with kitchen and bar teams to keep order timing and food quality on track
 - **Administrative Officer / Customer Service Representative** (2019 - 2021) - **TIVA Bespoke** (Abuja, Nigeria)
   - Raised client satisfaction by 35% and repeat business by 25% through personalized service and follow-ups
-  - Maintained accurate CRM records and managed end-to-end order fulfillment
-  - Streamlined cross-border team workflows, reducing turnaround time by 25%
+  - Maintained accurate CRM records and managed end-to-end order fulfillment, strengthening customer loyalty
+  - Streamlined workflows across cross-border teams, reducing turnaround time by 25%
 
-### Independent Projects
-- **Hotel Revenue & Booking Analysis** (2026) - SQL Server, Power BI. Compared ADR and cancellation rates by market segment in SQL (group bookings cancel at 34.8% vs 8.9% for offline travel agents); built a Power BI executive dashboard with KPI cards, revenue/booking trends and interactive filters.
+### Projects & Job Simulations
+- **Hotel Revenue & Booking Performance Dashboard** (2026) - SQL Server (T-SQL), Power BI, DAX - github.com/paul-analytics/hotel-revenue-analytics
+  - Built a SQL Server database; T-SQL (GROUP BY, CASE WHEN, window functions) analyzing ADR, booking mix and cancellation rate across 6 market segments and 2 hotels
+  - Two-page Power BI report (Executive Overview, Cancellation Risk) with 6 DAX measures, KPI cards, synced slicers, custom theme
+  - Validated every DAX measure against the SQL results, catching and fixing a data-type bug before publishing
+  - Documented on GitHub: README, data dictionary, DAX notes, limitations, next steps
+  - (Earlier CV finding: group bookings cancel at 34.8% vs 8.9% for offline travel agents)
+- **British Airways Data Science Job Simulation** (2026) - Forage (Certificate of Completion), Excel, Python, Google Colab - github.com/paul-analytics/ba-data-science-simulation
+  - Excel lounge eligibility model for Heathrow Terminal 3: 10,000 summer departures grouped by haul and time of day into a reusable lookup table with Low/Base/High scenarios
+  - Cleaned 50,000 customer bookings in Python (pandas), removed 719 duplicates; Random Forest (scikit-learn), 5-fold cross-validation, AUC 0.76
+  - Judged the model on AUC, not its misleading 85% accuracy (equal to the no-booking baseline); presented purchase lead time and flight hour as top drivers in a one-slide summary for a non-technical manager
 
 ### Technical Skills
-- **Primary:** Consultative selling, upselling & cross-selling, clienteling & VIP relationship management, complaint resolution & service recovery, team leadership & floor operations
-- **Secondary:** SQL (SQL Server), Power BI (DAX), Microsoft Excel/Word/PowerPoint, sales reporting & data-informed decisions
-- **Domain:** Premium hospitality / luxury F&B (Dubai), bespoke retail, hotel revenue metrics (ADR, cancellation rate by segment), event & brand activation support
-- **Software:** POS systems, CRM systems, SQL Server, Power BI, Microsoft Office
-- **Not on profile (do not claim):** Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, Python, Arabic, Russian
+- **Primary:** F&B & hospitality operations, guest experience & VIP relations, consultative selling & upselling, team leadership & supervision, service recovery & complaints, client retention & loyalty
+- **Secondary (data):** SQL (SQL Server, T-SQL: GROUP BY, CASE WHEN, window functions), Python (pandas, scikit-learn, matplotlib), Power BI (DAX, data modeling, dashboards), Excel (lookups, scenario models), data cleaning & validation, predictive modeling, KPI reporting & data visualization
+- **Domain:** premium/high-volume F&B (Dubai), bespoke retail, hotel revenue metrics (ADR, booking mix, cancellation rate), airline customer booking data (simulation)
+- **Software:** POS and CRM systems, Microsoft Office (Excel, Word, PowerPoint), GitHub, Google Colab, SQL Server, Power BI
+- **Not on profile (do not claim):** Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, food-safety certificate (PIC/HACCP), Arabic, Russian, B2B/new-business sales, budgeting / P&L ownership
 
 ### Certifications
-- **Google Data Analytics Professional Certificate** - Coursera - completed 2025
+- **Google Data Analytics Professional Certificate** - Coursera - 2025
+- **British Airways Data Science Job Simulation** - Forage - Certificate of Completion (2026)
 
 ### Publications
 - None
@@ -66,23 +84,24 @@ were not in the CV and are inferred; confirm or correct them with /setup. -->
 - None listed
 
 ### Behavioral Profile
-<!-- No formal assessment (PI/DISC) provided - traits below are inferred from the CV's own
-claims. Confirm or replace via /setup. -->
-- **Calm under pressure** - leads a 15+ person floor through peak service in a luxury venue
+<!-- No formal assessment provided - inferred from the CV's own claims. Confirm via /setup. -->
+- **Calm under pressure** - leads a 15+ person floor team through peak service
 - **Relationship builder** - repeat VIP clientele +30% (Mythos), repeat business +25% (TIVA)
-- **Accuracy-minded** - 100% POS transaction accuracy; accurate CRM records
-- **Strengths:** consultative selling, guest/client relationships, composure, numeracy (Mathematics degree), turning sales data into decisions
-- **Growth areas:** formal supervisory title (leadership so far is floor-level), hotel systems (Opera PMS), hands-on analytics experience beyond one portfolio project, Arabic
-- **Thrives in:** fast-paced, premium, guest-facing environments with measurable sales targets (to confirm)
+- **Accuracy-minded** - 100% POS accuracy; validated every DAX measure against SQL before publishing
+- **Analytical judgment** - judged a model on AUC rather than misleading accuracy; explains results to non-technical managers
+- **Strengths:** consultative selling, guest/client relationships, composure, numeracy (Mathematics), turning sales and booking data into decisions
+- **Growth areas:** management title (team lead, not yet supervisor/manager), hotel systems (Opera PMS), paid analytics experience (portfolio/simulation-based so far), Arabic
+- **Thrives in:** fast-paced, guest- or partner-facing environments with measurable targets (to confirm)
 
 ### What Excites You
-- Premium guest and client experiences that drive repeat business (to confirm)
-- Using data (SQL, Power BI) and AI/automation to improve sales and customer decisions (MBA focus; to confirm)
+- Premium guest and partner experiences that drive repeat business (to confirm)
+- Using data (SQL, Python, Power BI) and AI/automation to improve commercial decisions (MBA focus; to confirm)
 
 ### Target Sectors
-- Luxury hospitality & F&B: Jumeirah, Marriott (St. Regis, W, Luxury Collection), Kerzner (Atlantis, One&Only), Dorchester Collection, Emaar Hospitality, Kitopi, Gates Hospitality
-- Luxury & premium retail: Chalhoub Group, Al Tayer Group, Majid Al Futtaim, Rivoli, Apparel Group; maisons (Louis Vuitton, Van Cleef & Arpels, Vacheron Constantin, Audemars Piguet)
-- Hospitality commercial & analytics: hotel revenue/reservations teams, CRM/CX teams in retail and F&B groups
+- F&B operations: luxury hotels (Park Hyatt, Jumeirah, Marriott, Hilton, Kerzner, Dorchester Collection), F&B groups (Kitopi, Gates Hospitality, EATX), Emirates Flight Catering
+- Partner & account management: food-delivery and quick-commerce platforms (Careem, Deliveroo, noon Food, Talabat), F&B suppliers
+- Revenue & business analysis: hotel revenue teams, CRM/CX and commercial analytics in hospitality and retail groups
+- Luxury & premium retail (clienteling): Chalhoub Group, Al Tayer Group, Majid Al Futtaim; maisons
 
 ### Deal-breakers
 - Roles requiring Arabic, Russian or another language not declared above (Language Gate)

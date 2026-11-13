@@ -137,14 +137,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For guest experience / F&B supervision roles (restaurant supervisor, guest relations, VIP host):**
-> Guest experience professional with 5+ years in premium hospitality and bespoke retail across Dubai and Nigeria. At Mythos Urban Greek Restaurant (City Walk) I lead a 15+ person floor team through peak service, cut service errors by 25%, raised average spend per guest by 20% and grew repeat VIP clientele by 30%. Calm under pressure, 100% accurate on POS, and focused on personalized, luxury-standard service that brings guests back.
+**For F&B operations / guest experience roles (F&B supervisor, assistant outlet manager, guest relations, VIP host):**
+> Hospitality operations professional with 5+ years in premium F&B and client-facing roles in Dubai and Nigeria. Promoted from Waiter to Team Lead at Mythos Urban Greek Restaurant (City Walk), I lead a 15+ person floor team at peak service, cut service errors by 25%, raised average spend per guest by 20% and grew repeat VIP clientele by 30%. Strong on menu and allergen knowledge, kitchen and bar coordination, on-the-spot service recovery and 100% POS accuracy.
 
-**For luxury retail sales / clienteling roles (client advisor, sales associate, customer experience):**
-> Sales and client relationship professional with 5+ years in premium hospitality and bespoke retail. Proven in consultative selling and clienteling: +20% average spend through tailored recommendations, +30% repeat VIP clientele, and +35% client satisfaction / +25% repeat business at TIVA Bespoke through personalized follow-up and accurate CRM records. Brings luxury-service composure and an MBA (GPA 3.92) to building a loyal client book.
+**For partner & account management roles (restaurant partners on delivery platforms, key accounts in F&B):**
+> F&B insider with 5+ years in high-volume Dubai restaurants and client-facing retail, now pairing that operational knowledge with SQL, Python and Power BI. Grew repeat VIP clientele by 30% and average spend per guest by 20% at Mythos, and raised client satisfaction by 35% and repeat business by 25% at TIVA Bespoke through personalized follow-ups and accurate CRM records. Understands from the floor what moves a restaurant's revenue, and can show it in the data. MBA (GPA 3.92/4.00).
 
-**For data-informed commercial roles (junior data / sales / revenue / CRM analyst):**
-> Google-certified data analyst and MBA graduate (AI & Future of Automation, GPA 3.92) with a Mathematics degree and 5+ years on the commercial front line of premium hospitality and retail. Uses SQL Server and Power BI to turn booking and sales data into decisions - e.g. a hotel revenue analysis showing group bookings cancel at 34.8% vs 8.9% for offline travel agents, delivered as a Power BI executive dashboard. Pairs analytics with first-hand understanding of what drives guest spend and loyalty.
+**For revenue / business / data analysis roles (junior data, revenue, CRM, BI analyst):**
+> Google-certified data analyst and MBA graduate (AI & Future of Automation, GPA 3.92/4.00) with a Mathematics degree and 5+ years on the commercial front line of premium hospitality. Built a hotel revenue dashboard in SQL Server (T-SQL window functions) and Power BI (6 DAX measures validated against SQL) analyzing ADR and cancellations across 6 market segments, and completed the British Airways data science simulation: cleaned 50,000 bookings in pandas and trained a Random Forest (AUC 0.76) judged on AUC rather than misleading accuracy. Brings first-hand understanding of what drives guest spend and loyalty.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 
