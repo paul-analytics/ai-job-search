@@ -65,17 +65,26 @@ specific true story before an interview - never invent the situation details. --
 
 ## Common Tough Questions
 
-### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+<!-- Drafts built only from CV facts (2026-11-13). Say them in your own words; adjust anything that isn't how you'd put it. -->
 
-### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+### "Why are you leaving Mythos?" / "Why now?"
+> "I've had a great run at Mythos. I joined as a Waiter in 2021 and was promoted to Team Lead in 2023, and now I lead a 15+ person floor at peak service. I've also spent the last two years building the analytical side: an MBA in AI and automation, the Google Data Analytics certificate, and two published projects in SQL, Python and Power BI. I'm looking for a role where I use both the operational knowledge and the data skills, which my current role doesn't offer."
+
+### "You don't have [Opera / account-management portfolio / paid analyst experience]."
+> "That's fair. I haven't used [X] in a job yet. What I do have is the closest thing to it: [bridge]. And I learn systems quickly: I run POS payments, adjustments and refunds at 100% accuracy, and I taught myself T-SQL window functions and DAX for the hotel dashboard."
+> Bridges to use:
+> - **Opera:** hotel revenue project (ADR and cancellations by segment).
+> - **Account management:** 2 years of client management at TIVA (satisfaction +35%, repeat business +25%) plus VIP retention at Mythos (+30%).
+> - **Analyst role:** two projects that a recruiter can open on GitHub.
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> "Owning commercial results, either running F&B operations or managing a portfolio of partners, and using data to drive the decisions rather than just reporting them. I'd like to grow inside a company like yours where operations and analytics meet." (Tailor the end to the role's growth path.)
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> "My management experience is still at team-lead level. I lead the floor at peak service, but I haven't owned budgets or labour costs yet. I'm closing that by learning the numbers side: my hotel revenue project taught me to read ADR and booking mix, and I'd welcome a role where I take on cost and P&L responsibility step by step." (Truthful; don't swap in a fake weakness.)
+
+### "Tell me about yourself" (60 seconds)
+> "I'm a hospitality operations professional in Dubai. I'm Team Lead at Mythos Urban Greek Restaurant in City Walk, where I raised average spend per guest by 20% and repeat VIP clientele by 30%. Before that I spent two years in client service at a bespoke retailer in Nigeria. Alongside work I completed an MBA in AI and automation and the Google Data Analytics certificate, and I've built projects in SQL, Python and Power BI, including a hotel revenue dashboard. I'm looking for [role] because it combines both sides."
 
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.
@@ -93,7 +102,7 @@ specific true story before an interview - never invent the situation details. --
 - "How do you onboard new team members?"
 
 ### About Tech & Growth
-- "What's your current tech stack for [relevant area]?"
+- "Which systems and data does the team work with day to day (e.g. POS, PMS, CRM, BI tools)?"
 - "Is there room to grow into more architectural or strategic decisions?"
 - "How does the team stay current with new tools and methods?"
 
