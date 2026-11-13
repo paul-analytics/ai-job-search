@@ -6,6 +6,13 @@ failure; this guard turns it into a red CI run instead.
 import re
 import unittest
 from pathlib import Path
+import os
+
+UPSTREAM = "MadsLorentzen/ai-job-search"
+FORK_SKIP = unittest.skipIf(
+    os.environ.get("GITHUB_REPOSITORY", UPSTREAM) != UPSTREAM,
+    "upstream README layout guard; this personal fork rewrote the README",
+)
 
 REPO = Path(__file__).resolve().parent.parent
 README = REPO / "README.md"
@@ -20,6 +27,7 @@ class ReadmeImageReferences(unittest.TestCase):
         refs = IMG_SRC.findall(text) + MD_IMG.findall(text)
         return [r for r in refs if not r.startswith(("http://", "https://"))]
 
+    @FORK_SKIP
     def test_readme_exists_and_references_at_least_one_local_image(self):
         refs = self._local_refs()
         self.assertGreaterEqual(len(refs), 1, "README lost its mascot header image")

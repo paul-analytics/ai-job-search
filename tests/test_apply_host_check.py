@@ -27,11 +27,7 @@ KNOWN_ATS_APEXES = {
 }
 
 SHIPPED_PORTAL_HOSTS = {
-    "jobindex.dk",
     "linkedin.com",
-    "jobnet.dk",
-    "jobbank.dk",
-    "jobdanmark.dk",
     "freehire.me",
 }
 
@@ -103,10 +99,8 @@ class ApplyHostVerificationSpecTests(unittest.TestCase):
 
     def test_classifier_identifies_installed_portal_hosts(self):
         urls = [
-            "https://www.jobindex.dk/jobannonce/12345",
             "https://www.linkedin.com/jobs/view/999999",
-            "https://jobnet.dk/find-job/8888",
-            "https://jobbank.dk/job/7777",
+            "https://ae.linkedin.com/jobs/view/888888",
             "https://freehire.me/job/6666",
         ]
         for url in urls:

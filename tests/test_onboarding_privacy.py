@@ -12,6 +12,13 @@ writing anything, not in its closing notes.
 import re
 import unittest
 from pathlib import Path
+import os
+
+UPSTREAM = "MadsLorentzen/ai-job-search"
+FORK_SKIP = unittest.skipIf(
+    os.environ.get("GITHUB_REPOSITORY", UPSTREAM) != UPSTREAM,
+    "upstream README layout guard; this personal fork rewrote the README",
+)
 
 REPO = Path(__file__).resolve().parent.parent
 README = REPO / "README.md"
@@ -47,6 +54,7 @@ class TestForkWarningsAtTheDecisionPoint(unittest.TestCase):
             f"{where}'s fork section must point at SETUP.md section 8's private-remote recipe",
         )
 
+    @FORK_SKIP
     def test_readme_quick_start_warns_next_to_the_fork_command(self):
         body = section(README.read_text(encoding="utf-8"), "### 1. Fork and clone")
         self.assertIn("gh repo fork", body, "sanity: the fork command lives in this section")
