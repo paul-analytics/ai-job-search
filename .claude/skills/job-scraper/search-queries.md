@@ -76,6 +76,23 @@ linkedin-search: "client advisor" | "sales associate" luxury | "customer experie
 linkedin-search: "sales coordinator" hotel | "events coordinator" | "operations coordinator" | "operations executive"
 ```
 
+## UAE boards via WebSearch (SKILL.md Step 1e)
+
+These are search-engine queries, not page fetches; the boards themselves stay off-limits for automation. Run the ones matching the categories in play:
+
+```
+site:bayt.com restaurant supervisor Dubai
+site:bayt.com "F&B supervisor" OR "floor supervisor" OR "team leader" Dubai
+site:bayt.com "account manager" restaurants OR "food delivery" Dubai
+site:bayt.com "data analyst" OR "revenue analyst" OR "business analyst" Dubai
+site:gulftalent.com Dubai restaurant supervisor OR "F&B supervisor" OR "team leader"
+site:gulftalent.com Dubai "account manager" OR "key account" food
+site:gulftalent.com Dubai "data analyst" OR "revenue" OR "business analyst" junior
+site:naukrigulf.com restaurant supervisor Dubai
+site:naukrigulf.com "F&B supervisor" OR "captain" Dubai
+site:jobs.workable.com Dubai restaurant supervisor OR "floor supervisor"
+```
+
 ## Location Filter
 
 The candidate lives in Dubai. Commute constraints are not confirmed yet (`/setup --section search` can refine this):

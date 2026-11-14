@@ -10,6 +10,10 @@ Checked 2026-11-13 from this repo's cloud environment. This lists every UAE hiri
 | Indeed UAE | Indeed MCP connector (`mcp__Indeed__*`) | All target roles, `country_code AE`, `location Dubai` | ✅ Works through Indeed's API (tested 2026-11-14; returns pay on many ads). No recency filter: filter to 14 days client-side. Only in sessions where the connector is attached |
 | freehire.me | `freehire-search` | Tech/data roles only (`--country AE`) | ✅ Works. Live test returned Dubai/Sharjah data analyst roles |
 
+## Search-indexed (WebSearch only, added 2026-11-14)
+
+`/scrape` Step 1e finds Bayt, GulfTalent, Naukrigulf and Workable-hosted postings through `site:` web searches, without touching the boards. Hits are **leads with unverified freshness**, shown in a separate table for the user to open. Tested 2026-11-14: returned current Dubai supervisor and account-manager listings, mixed with closed or older ones.
+
 ## Manual only (bot-protected: do NOT build scrapers that get around this)
 
 | Site | Best for | Why manual | Notes |

@@ -95,6 +95,15 @@ If the session has the Indeed connector (`mcp__Indeed__search_jobs` / `mcp__Inde
 4. Tag results `portal: "indeed-mcp"`. Step 4 stores `source: "connector"`: the mechanism is neither a local CLI nor a search index.
 5. Dedup across portals by company + title: the same role often appears on both LinkedIn and Indeed.
 
+#### 1e. UAE boards via WebSearch (index-only channel)
+
+Bayt, GulfTalent and Naukrigulf block automated clients, but search engines index their posting pages. On every run (not only as a fallback), send these `WebSearch` queries for the categories being run, e.g. `site:bayt.com restaurant supervisor Dubai`, `site:gulftalent.com Dubai "F&B supervisor"`, `site:naukrigulf.com restaurant supervisor Dubai` (full list in `search-queries.md` → "UAE boards via WebSearch").
+
+- **Never fetch the posting pages** (WebFetch, curl or a browser): they sit behind Cloudflare/Imperva, and getting around that is out of bounds. Use only what the search result shows: title, employer, snippet and URL.
+- **Freshness is unverified.** Search indexes lag, and many hits are closed or months old. Naukrigulf URLs embed the posting date in the `jid-DDMMYY...` segment: drop hits older than 14 days. Bayt and GulfTalent IDs are not dates. Keep their hits only when the snippet or result shows a recent date, and mark the rest `⚠ date unverified`.
+- Present these hits in a separate **"Leads from UAE boards (open the link to confirm it's still live)"** table after the main results, never mixed into the verified CLI table. Store them in `seen_jobs.json` with `source: "websearch"` and `portal: "websearch-<board>"`.
+- Dedup against CLI results by company + title, because many employers cross-post to LinkedIn.
+
 ### Step 2: Fetch & Parse
 
 For each promising result from Step 1:
