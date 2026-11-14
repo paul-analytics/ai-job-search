@@ -118,7 +118,7 @@ Does this role advance career goals and contain tasks that energize?
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: currently employed in Dubai, 30-day notice period - can be selective; salary floor to confirm
+- **Security**: currently employed in Dubai, 30-day notice period - can be selective. **Salary floor: AED 5,000/month.** Stated max below 5,000 = FAIL (deal-breaker); range straddling 5,000 = FLAG; no stated pay = proceed
 - **Flexibility**: hospitality shift patterns are familiar; schedule constraints to confirm
 - **Professional development**: hotel systems (Opera PMS), management title, a first paid analytics or account-management role
 

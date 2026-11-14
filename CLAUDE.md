@@ -107,7 +107,7 @@ earlier 1-page CV. Items marked (to confirm) are not on the CV; confirm or corre
 - Roles requiring Arabic, Russian or another language not declared above (Language Gate)
 - Roles restricted to UAE nationals (Emiratisation / Nafis)
 - Roles outside the UAE (unless asked for GCC-wide search)
-- Salary floor: to confirm
+- Salary floor: **AED 5,000/month** minimum (set 2026-11-14). A posting whose stated pay range tops out below AED 5,000 is a deal-breaker; a range that straddles it (e.g. 4,000-6,000) is a FLAG to negotiate. Most UAE postings state no pay - proceed and raise it at offer stage
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

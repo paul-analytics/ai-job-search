@@ -92,6 +92,10 @@ Working language: English (fluent). Apply `04-job-evaluation.md`'s Language Gate
 - Exclude: postings whose title or requirements need Arabic, Russian, French, Mandarin, Hindi, etc. ("Arabic Speaker", "Russian Speaking", "fluent Arabic required")
 - Keep: "Arabic is an advantage" / "additional language is a plus", and say in the evaluation that it counts as a soft gap
 
+## Salary Filter
+
+Minimum AED 5,000/month. When a posting (often Indeed) states pay whose top end is below AED 5,000, mark it Low and say why. A range straddling 5,000 gets a ⚠ in the Title cell. No stated pay: no effect.
+
 ## Date Filter
 
 Only include jobs posted within the last 14 days, or with an application deadline that has not yet passed. If a posting date cannot be determined, include it but flag as "date unknown".
