@@ -7,6 +7,7 @@ Checked 2026-11-13 from this repo's cloud environment. This lists every UAE hiri
 | Site | Skill | Covers | Status |
 |---|---|---|---|
 | LinkedIn Jobs | `linkedin-search` | All target roles, Dubai | ✅ Works. Live test returned Dubai postings. Personal use only, low volume |
+| Indeed UAE | Indeed MCP connector (`mcp__Indeed__*`) | All target roles, `country_code AE`, `location Dubai` | ✅ Works through Indeed's API (tested 2026-11-14; returns pay on many ads). No recency filter: filter to 14 days client-side. Only in sessions where the connector is attached |
 | freehire.me | `freehire-search` | Tech/data roles only (`--country AE`) | ✅ Works. Live test returned Dubai/Sharjah data analyst roles |
 
 ## Manual only (bot-protected: do NOT build scrapers that get around this)
@@ -16,7 +17,7 @@ Checked 2026-11-13 from this repo's cloud environment. This lists every UAE hiri
 | **Bayt.com** | Largest MENA board; office, hospitality and retail roles at established employers | Cloudflare challenge (HTTP 403) | Make a profile and turn on job alerts. Many recruiters search Bayt CVs directly |
 | **GulfTalent** | Professional and mid-level roles (analyst, CRM, CX, revenue) | Imperva/Incapsula (HTTP 403) | Upload the CV. GulfTalent recruiters search its CV database |
 | **Naukrigulf** | High volume for hospitality, retail, customer service | Imperva/Incapsula, connection refused | Popular with South and Southeast Asian and African applicants; lots of hotel postings |
-| **Indeed UAE** (ae.indeed.com) | Aggregator; includes many employer career pages | Login wall for automated clients (HTTP 401) | Use the 14-day filter (`fromage=14`) |
+| **Indeed UAE** (ae.indeed.com) | Aggregator; includes many employer career pages | Login wall for scrapers (HTTP 401); **use the Indeed connector instead** when attached | Use the 14-day filter (`fromage=14`) |
 | **Dubizzle Jobs** | Entry-level, F&B, retail, customer service | Imperva/Incapsula | Many listings are low-paid or part-time; check salary before applying |
 | **Dubai Careers** (dubaicareers.ae) | Dubai Government entities | Not tested | Most roles favour UAE nationals; check eligibility |
 | **Nafis** | Emirati-only private-sector roles | n/a | **Not eligible.** Skip |

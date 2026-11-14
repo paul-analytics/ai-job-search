@@ -8,10 +8,11 @@ Personalized for Paul Owoicho-Oche John: Dubai, UAE. Target market is the UAE. R
 
 - **`linkedin-search`**: the main source for every category below. Always pass `--location "Dubai, United Arab Emirates"`. LinkedIn is where most Dubai hotel groups, luxury maisons and retail groups post.
 - **`freehire-search`**: tech and data roles only. Use it for Priority 3 with `--country AE`. It is no use for hospitality or retail roles.
+- **Indeed (MCP connector, when the session has it)**: Indeed UAE through Indeed's own API. Use for Priorities 1–3 with `country_code AE`, `location Dubai`. No recency flag, so filter to 14 days client-side. Often shows pay. See `SKILL.md` Step 1d.
 
 The upstream Danish portals (Jobindex, Jobnet, Jobbank, Jobdanmark) were removed from this fork.
 
-The major UAE boards (Bayt, GulfTalent, Naukrigulf, Indeed UAE, Dubizzle) all block automated access, with Cloudflare, Imperva or a login wall; this was tested on 2026-11-13. They have **no CLI here and must not be scraped around**. For each `/scrape`, print the ready-made manual search links from `uae-job-sites.md` (this directory) in the Step 5 summary so the user can open them in a browser.
+The major UAE boards (Bayt, GulfTalent, Naukrigulf, Indeed UAE, Dubizzle) all block automated access, with Cloudflare, Imperva or a login wall; this was tested on 2026-11-13. They have **no CLI here and must not be scraped around**. The exception is Indeed, reachable through the Indeed MCP connector (Step 1d) when a session has it. For each `/scrape`, print the ready-made manual search links from `uae-job-sites.md` (this directory) in the Step 5 summary so the user can open them in a browser.
 
 **Language scope:** the candidate works in **English only**. Write every query in English. In Dubai, about one posting in four asks for Arabic and about one in seven asks for Russian (16 and 10 of 67 sampled postings). When a posting *requires* Arabic, Russian, French or another undeclared language (e.g. "Arabic Speaker", "Russian Speaker" in the title, or "fluent Arabic required"), exclude it via the Language Gate in `04-job-evaluation.md`. "Arabic is a plus" is not a requirement; keep those.
 
