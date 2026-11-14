@@ -62,7 +62,7 @@ How well do the required/preferred skills align with the candidate's capabilitie
 
 **Strong match areas:** F&B / restaurant operations, guest experience & VIP relations, consultative selling & upselling, team leadership (Team Lead, 15+ floor team), service recovery & complaints, client retention & loyalty, POS transaction accuracy, CRM record-keeping, menu & allergen knowledge
 **Moderate match areas:** SQL (T-SQL incl. window functions), Python (pandas, scikit-learn), Power BI (DAX, data modeling), Excel (lookups, scenario models), data cleaning & validation, predictive modeling, KPI reporting - two published projects (hotel revenue dashboard, BA data science simulation) + Google Data Analytics certificate, no paid analyst role yet; partner/account management (transferable from VIP and client retention, no formal account portfolio yet)
-**Weak match areas:** Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, revenue management systems (IDeaS, Duetto), marketing automation (Braze, Klaviyo, SFMC), Agile/UAT/Jira business analysis, food safety certification (PIC/HACCP), budgeting / P&L / labour-cost control, B2B new-business sales, Arabic, Russian
+**Weak match areas:** Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, revenue management systems (IDeaS, Duetto), marketing automation (Braze, Klaviyo, SFMC), Agile/UAT/Jira business analysis, PIC / HACCP food-safety certification (holds Basic Food Hygiene/BFH), budgeting / P&L / labour-cost control, B2B new-business sales, Arabic, Russian
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.

@@ -48,7 +48,7 @@ Re-ranked after the first full `/scrape`: 54 more Dubai postings were opened in 
   - upselling ✅
   - inventory / stock ➕
   - grooming ➕
-  - **hygiene / food safety** ❌ (9/18)
+  - **hygiene / food safety** ✅ (9/18; Basic Food Hygiene (BFH) certificate, so list it under Certifications)
 
 **2. Floor Supervisor**
 - **Keywords:**
@@ -249,11 +249,11 @@ Re-ranked after the first full `/scrape`: 54 more Dubai postings were opened in 
 | "KPI Reporting & Dashboards" | for account roles: "**performance reporting**", "**data insights**" | Exact phrases in Careem and Deliveroo ads |
 | "Handled guest complaints…" | "**service recovery**" + "**guest satisfaction**" | Supervisor and guest relations ads |
 | "Team Leadership & Supervision" | keep; add "**daily briefings**" or "**on-the-job coaching**" only if you do them | Park Hyatt outlet roles |
-| "Judegmat Computer College" | ⚠ the earlier CV said "Judgemat"; check the spelling on your diploma | A typo on a CV is an easy reject |
+| "Judegmat Computer College" (on your 2-page CV) | **"Judgemat Computer College"** (confirmed 2026-11-14) | Fix it in your own CV file too; a typo on a CV is an easy reject |
 
 ## Gaps worth closing (by payoff)
 
-1. **Food safety: Dubai Municipality PIC / HACCP Level 2.** In 9 of 18 supervisor ads (hygiene/food safety); cheapest, fastest win.
+1. **Food safety: covered by your Basic Food Hygiene (BFH) certificate.** Make sure it's listed on your CV (9 of 18 supervisor ads mention hygiene or food safety). For outlet/assistant-manager roles later, the Dubai Municipality **PIC (Person in Charge)** certificate is the next step up.
 2. **Opera PMS / Opera Cloud.** Unlocks hotel reservations, front office and revenue coordinator roles.
 3. **Account-management vocabulary:** GTV, AOV/basket size, order frequency, partner business review. If you build a small portfolio project on restaurant/delivery data (e.g. menu performance or partner KPIs in Power BI), you can use these terms truthfully.
 4. **Tableau** (3 of 4 data analyst ads) and **Excel PivotTables** phrasing.

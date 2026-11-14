@@ -35,7 +35,7 @@ earlier 1-page CV. Items marked (to confirm) are not on the CV; confirm or corre
 ### Education
 - **MBA, AI & Future of Automation** (2024) - Nexford University, USA - GPA 3.92/4.00
 - **B.Sc. (Ed.) Mathematics, Second Class Upper** (2018) - Federal University Dutsin-Ma, Nigeria
-- **Diploma in Computer Studies** (2013) - Judegmat Computer College, Nigeria <!-- spelled "Judgemat" on the earlier CV - confirm which is correct -->
+- **Diploma in Computer Studies** (2013) - Judgemat Computer College, Nigeria
 
 ### Professional Experience
 - **Senior Waiter (Team Lead)** (2023 - Present) - **Mythos Urban Greek Restaurant** (City Walk, Dubai, UAE)
@@ -71,11 +71,12 @@ earlier 1-page CV. Items marked (to confirm) are not on the CV; confirm or corre
 - **Secondary (data):** SQL (SQL Server, T-SQL: GROUP BY, CASE WHEN, window functions), Python (pandas, scikit-learn, matplotlib), Power BI (DAX, data modeling, dashboards), Excel (lookups, scenario models), data cleaning & validation, predictive modeling, KPI reporting & data visualization
 - **Domain:** premium/high-volume F&B (Dubai), bespoke retail, hotel revenue metrics (ADR, booking mix, cancellation rate), airline customer booking data (simulation)
 - **Software:** POS and CRM systems, Microsoft Office (Excel, Word, PowerPoint), GitHub, Google Colab, SQL Server, Power BI
-- **Not on profile (do not claim):** Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, food-safety certificate (PIC/HACCP), Arabic, Russian, B2B/new-business sales, budgeting / P&L ownership
+- **Not on profile (do not claim):** Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, PIC (Person in Charge) / HACCP certificates (holds BFH only), Arabic, Russian, B2B/new-business sales, budgeting / P&L ownership
 
 ### Certifications
 - **Google Data Analytics Professional Certificate** - Coursera - 2025
 - **British Airways Data Science Job Simulation** - Forage - Certificate of Completion (2026)
+- **Basic Food Hygiene (BFH) Certificate** - Dubai (food handler food-safety and hygiene certificate; year to confirm). Do NOT mention in applications how it was obtained - candidate explains at interview
 
 ### Publications
 - None

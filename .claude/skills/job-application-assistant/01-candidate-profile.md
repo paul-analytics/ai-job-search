@@ -30,7 +30,7 @@ framework_version: 1.1.1
 |--------|--------|-------------|------------|
 | MBA, AI & Future of Automation (GPA 3.92/4.00) | 2024 | Nexford University, USA | AI, automation, business strategy |
 | B.Sc. (Ed.) Mathematics, Second Class Upper | 2018 | Federal University Dutsin-Ma, Nigeria | Mathematics, education |
-| Diploma in Computer Studies | 2013 | Judegmat Computer College, Nigeria (spelled "Judgemat" on earlier CV - confirm) | Computer fundamentals |
+| Diploma in Computer Studies | 2013 | Judgemat Computer College, Nigeria | Computer fundamentals |
 
 ## Professional Experience
 
@@ -81,11 +81,12 @@ Abuja, Nigeria
 - Microsoft Office (Excel, Word, PowerPoint), POS and CRM systems, GitHub, Google Colab, SQL Server, Power BI
 
 ### Not claimed (gaps - never write these into applications)
-- Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, food-safety certificate (PIC/HACCP), Arabic, Russian, B2B new-business sales, budgeting / P&L ownership
+- Opera PMS / Opera Cloud, Micros, Salesforce, Tableau, PIC (Person in Charge) / HACCP certificates (holds BFH only), Arabic, Russian, B2B new-business sales, budgeting / P&L ownership
 
 ## Certifications
 - Google Data Analytics Professional Certificate - Coursera (2025)
 - British Airways Data Science Job Simulation - Forage, Certificate of Completion (2026)
+- Basic Food Hygiene (BFH) Certificate - Dubai (year to confirm; do not mention in applications how it was obtained)
 
 ## Publications
 None.
